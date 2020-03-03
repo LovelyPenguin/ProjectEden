@@ -259,7 +259,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 0
+        m_CallState: 2
 --- !u!1 &1257231380
 GameObject:
   m_ObjectHideFlags: 0
@@ -462,7 +462,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7961058912439293214
 Transform:
   m_ObjectHideFlags: 0
@@ -618,12 +618,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7961058912439293212}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2faeaba686c213a4382ed765366d60d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 1692305522850045403, guid: 198f013503af02543a944518063c965a, type: 3}
+  item: {fileID: 8946654773901592061, guid: 0cf4fca1143f7134fae8cf6ad1cf035b, type: 3}
 --- !u!114 &123854125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -765,15 +765,4 @@ MonoBehaviour:
       m_Calls: []
   triggerEnter:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 123854125}
-        m_MethodName: FlipSpeed
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []

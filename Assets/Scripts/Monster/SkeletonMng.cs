@@ -53,16 +53,20 @@ public class SkeletonMng : MonoBehaviour
     void DirectionCheck()
     {
         Vector3 charScale = transform.localScale;
-        
-        if (direction > transform.position.x)
+
+        if (direction > transform.position.x && speed != 0)
         {
             isLeft = true;
             charScale.x = -1f;
         }
-        else if (direction < transform.position.x)
+        else if (direction < transform.position.x && speed != 0)
         {
             isLeft = false;
             charScale.x = 1f;
+        }
+        else
+        {
+            Debug.Log("Wait");
         }
 
         direction = transform.position.x;
