@@ -2208,6 +2208,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bat
       objectReference: {fileID: 0}
+    - target: {fileID: 8803581358271903196, guid: 7d800ef64a53d844cb3c06de9391e9bf,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8803581358271903202, guid: 7d800ef64a53d844cb3c06de9391e9bf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2382,7 +2387,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1150325117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4465,7 +4470,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 811bd599e13aa61469ad351a55a2f46e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 0}
+  bullet: {fileID: 8116114538281055171, guid: fc608142691e3d9489c7e27655128cd7, type: 3}
+--- !u!114 &1292828952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292828950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc1a76a651772ae4e89e411de3792422, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 8116114538281055171, guid: fc608142691e3d9489c7e27655128cd7, type: 3}
 --- !u!114 &1292828955 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 9058396094193123810, guid: a09d5cfa8089b0442871f8d0368cfcb0,
@@ -4478,6 +4496,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32f832d1d4c9ddf4bb238d115f27aaca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1292828958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292828950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60dffbe350527114fae19cedc780742e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 8803581358271903196, guid: 7d800ef64a53d844cb3c06de9391e9bf, type: 3}
 --- !u!1 &1366067709
 GameObject:
   m_ObjectHideFlags: 0
@@ -5179,7 +5210,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1870829786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5315,7 +5346,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1889068893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5746,6 +5777,11 @@ PrefabInstance:
     - target: {fileID: 9058396094193123809, guid: a09d5cfa8089b0442871f8d0368cfcb0,
         type: 3}
       propertyPath: m_FlipY
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058396094193123809, guid: a09d5cfa8089b0442871f8d0368cfcb0,
+        type: 3}
+      propertyPath: m_FlipX
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9058396094193123810, guid: a09d5cfa8089b0442871f8d0368cfcb0,

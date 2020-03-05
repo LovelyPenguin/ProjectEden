@@ -7,16 +7,17 @@ public class BossStateManager : MonoBehaviour
 {
     [Header("패턴 목록")]
     public UnityEvent[] bossEvents;
+    public Animator anim;
+    public GameObject player;
 
     private int stateNumber;
-    protected Animator anim;
     private float timer = 1.5f;
 
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log(bossEvents.Length);
-        anim = GetComponent<Animator>();
+        anim = gameObject.GetComponent<Animator>();
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     // Update is called once per frame

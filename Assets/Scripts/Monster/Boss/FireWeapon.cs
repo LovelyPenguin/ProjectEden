@@ -19,10 +19,11 @@ public class FireWeapon : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        for (int i = 0; i < 5; i++)
-        {
-            animator.gameObject.GetComponent<VL_P1_BatShot1>().BulletFire();
-        }
+        VL_P1_BatShot1(animator);
+        VL_P1_BatShot2(animator);
+        //VL_P1_BatShot3(animator);
+
+        animator.SetInteger("PreviousPatternKey", 0);
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()
@@ -36,4 +37,36 @@ public class FireWeapon : StateMachineBehaviour
     //{
     //    // Implement code that sets up animation IK (inverse kinematics)
     //}
+
+    void VL_P1_BatShot1(Animator animator)
+    {
+        if (animator.GetInteger("PreviousPatternKey") == (int)BossStatesPhase1.VL_P1_BatShot1)
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                animator.gameObject.GetComponent<VL_P1_BatShot1>().BulletFire();
+            }
+            animator.gameObject.GetComponent<VL_P1_BatShot1>().ResetData();
+        }
+    }
+
+    void VL_P1_BatShot2(Animator animator)
+    {
+        if (animator.GetInteger("PreviousPatternKey") == (int)BossStatesPhase1.VL_P1_BatShot2)
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                animator.gameObject.GetComponent<VL_P1_BatShot2>().BulletFire();
+            }
+            animator.gameObject.GetComponent<VL_P1_BatShot2>().ResetData();
+        }
+    }
+
+    void VL_P1_BatShot3(Animator animator)
+    {
+        if (animator.GetInteger("PreviousPatternKey") == (int)BossStatesPhase1.VL_P1_BatShot3)
+        {
+            animator.gameObject.GetComponent<VL_P1_BatShot3>().ResetData();
+        }
+    }
 }

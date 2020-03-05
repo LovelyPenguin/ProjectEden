@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class MakeRandomNumber : StateMachineBehaviour
 {
+    public int range = 2;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        int number = Random.Range(0, 2);
+        int number = Random.Range(0, range);
         animator.SetInteger("RandomNumber", number);
     }
 
