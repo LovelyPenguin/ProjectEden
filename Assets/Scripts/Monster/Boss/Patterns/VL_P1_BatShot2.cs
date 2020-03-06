@@ -13,11 +13,17 @@ public class VL_P1_BatShot2 : MonoBehaviour
     private BossStateManager bossMng;
 
     private int bulletArray = 0;
+
+    private float[] timerArray = new float[5];
     // Start is called before the first frame update
     void Start()
     {
         setTimer = timer;
         bossMng = GetComponent<BossStateManager>();
+        for (int i = 0; i < 5; i++)
+        {
+            timerArray[i] = -1;
+        }
     }
 
     // Update is called once per frame
@@ -48,14 +54,25 @@ public class VL_P1_BatShot2 : MonoBehaviour
 
     public void BulletFire()
     {
-        if (bulletArray >= 5)
+        float temp = 0;
+
+        for (int i = 0; i < 5; i++)
         {
-            bulletArray = 0;
-            timer = setTimer;
+            timerArray[i] = temp;
+            temp += bossMng.anim.GetFloat("Bullet_Shoot_Interval");
+            int randomNumber = Random.Range(0, 5);
         }
-        StartCoroutine(FireBullet(bullets[bulletArray]));
-        timer += bossMng.anim.GetFloat("Bullet_Shoot_Interval");
-        bulletArray++;
+        for (int i = 0; i < 5; i++)
+        {
+            if (bulletArray >= 5)
+            {
+                bulletArray = 0;
+                timer = setTimer;
+            }
+            StartCoroutine(FireBullet(bullets[bulletArray], timerArray[i]));
+            //timer += bossMng.anim.GetFloat("Bullet_Shoot_Interval");
+            bulletArray++;
+        }
     }
 
     public void ResetData()
@@ -68,7 +85,7 @@ public class VL_P1_BatShot2 : MonoBehaviour
         timer = setTimer;
     }
 
-    IEnumerator FireBullet(GameObject bullet)
+    IEnumerator FireBullet(GameObject bullet, float time)
     {
         yield return new WaitForSeconds(timer);
         Rigidbody2D bulletRigidBody = bullet.GetComponent<Rigidbody2D>();

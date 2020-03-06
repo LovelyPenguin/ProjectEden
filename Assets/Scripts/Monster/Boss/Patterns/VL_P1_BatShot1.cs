@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+
 public class VL_P1_BatShot1 : MonoBehaviour
 {
     [SerializeField]
@@ -48,14 +50,19 @@ public class VL_P1_BatShot1 : MonoBehaviour
 
     public void BulletFire()
     {
-        if (bulletArray >= 5)
+        for (int i = 0; i < 5; i++)
         {
-            bulletArray = 0;
-            timer = setTimer;
+            if (bulletArray >= 5)
+            {
+                bulletArray = 0;
+                timer = setTimer;
+            }
+            StartCoroutine(FireBullet(bullets[bulletArray]));
+
+            timer += bossMng.anim.GetFloat("Bullet_Shoot_Interval");
+
+            bulletArray++;
         }
-        StartCoroutine(FireBullet(bullets[bulletArray]));
-        timer += bossMng.anim.GetFloat("Bullet_Shoot_Interval");
-        bulletArray++;
     }
 
     public void ResetData()

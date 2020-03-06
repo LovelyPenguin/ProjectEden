@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class SetBulletPosition : StateMachineBehaviour
 {
+    //public UnityEvent functionEvent;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     //override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     //{
@@ -30,10 +32,17 @@ public class SetBulletPosition : StateMachineBehaviour
 
         else if (animator.GetInteger("PatternKey") == (int)BossStatesPhase1.VL_P1_BatShot3)
         {
-            for (int i = 0; i < 5; i++)
-            {
-                animator.GetComponent<VL_P1_BatShot3>().SetBulletPostion();
-            }
+            animator.GetComponent<VL_P1_BatShot3>().SetBulletPostion();
+        }
+
+        else if (animator.GetInteger("PatternKey") == (int)BossStatesPhase1.VL_P1_Summon)
+        {
+            animator.GetComponent<VL_P1_Summon>().SetBulletPostion();
+        }
+
+        else if (animator.GetInteger("PatternKey") == (int)BossStatesPhase1.VL_P1_BloodPud)
+        {
+            animator.GetComponent<VL_P1_BloodPud>().SetBulletPostion();
         }
     }
 

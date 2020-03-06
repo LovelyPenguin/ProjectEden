@@ -42,10 +42,7 @@ public class FireWeapon : StateMachineBehaviour
     {
         if (animator.GetInteger("PreviousPatternKey") == (int)BossStatesPhase1.VL_P1_BatShot1)
         {
-            for (int i = 0; i < 5; i++)
-            {
-                animator.gameObject.GetComponent<VL_P1_BatShot1>().BulletFire();
-            }
+            animator.gameObject.GetComponent<VL_P1_BatShot1>().BulletFire();
             animator.gameObject.GetComponent<VL_P1_BatShot1>().ResetData();
         }
     }
@@ -54,10 +51,7 @@ public class FireWeapon : StateMachineBehaviour
     {
         if (animator.GetInteger("PreviousPatternKey") == (int)BossStatesPhase1.VL_P1_BatShot2)
         {
-            for (int i = 0; i < 5; i++)
-            {
-                animator.gameObject.GetComponent<VL_P1_BatShot2>().BulletFire();
-            }
+            animator.gameObject.GetComponent<VL_P1_BatShot2>().BulletFire();
             animator.gameObject.GetComponent<VL_P1_BatShot2>().ResetData();
         }
     }

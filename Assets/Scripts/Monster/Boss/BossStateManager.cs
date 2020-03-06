@@ -13,21 +13,58 @@ public class BossStateManager : MonoBehaviour
     private int stateNumber;
     private float timer = 1.5f;
 
+    private float previosXpos;
     // Start is called before the first frame update
     void Start()
     {
-        anim = gameObject.GetComponent<Animator>();
+        previosXpos = transform.position.x;
+        if (anim == null)
+        {
+            anim = gameObject.GetComponent<Animator>();
+        }
         player = GameObject.FindGameObjectWithTag("Player");
     }
 
     // Update is called once per frame
     void Update()
     {
+        
+    }
 
+    private void LateUpdate()
+    {
+        if (anim.GetBool("FlipLock") == false)
+        {
+            FilpCheck();
+        }
     }
 
     public void SetBossPatterns()
     {
         bossEvents[0].Invoke();
+    }
+
+    public void SetScale(float num)
+    {
+        transform.localScale = new Vector2(num, 1);
+    }
+
+    void FilpCheck()
+    {
+        if (previosXpos > transform.position.x)
+        {
+            transform.localScale = new Vector2(1, 1);
+        }
+
+        else if (previosXpos < transform.position.x)
+        {
+            transform.localScale = new Vector2(-1, 1);
+        }
+
+        else
+        {
+            //transform.localScale = new Vector2(1, 1);
+        }
+        previosXpos = transform.position.x;
     }
 }
