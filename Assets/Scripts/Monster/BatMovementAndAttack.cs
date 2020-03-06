@@ -19,10 +19,13 @@ public class BatMovementAndAttack : MonoBehaviour
 
     public GameObject bullet;
 
+    private Animator anim;
+
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -35,10 +38,10 @@ public class BatMovementAndAttack : MonoBehaviour
             if (currentDistance <= seekDistance)
             {
                 MoveToPlayer();
-
+                anim.SetBool("ReadyToFire", false);
                 if (currentDistance <= shootDistance && weaponReady == true)
                 {
-                    WeaponFire();
+                    anim.SetBool("ReadyToFire", true);
                 }
             }
         }

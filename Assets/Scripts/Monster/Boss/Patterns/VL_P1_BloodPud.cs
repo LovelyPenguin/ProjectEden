@@ -1,0 +1,46 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class VL_P1_BloodPud : MonoBehaviour
+{
+    [SerializeField]
+    private GameObject bullet;
+    private BossStateManager bossMng;
+    [SerializeField]
+    private float xpos;
+    [SerializeField]
+    private float ypos;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        bossMng = GetComponent<BossStateManager>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+
+    public void SetBulletPostion()
+    {
+        Instantiate(bullet, new Vector2(xpos, ypos), Quaternion.identity);
+        Instantiate(bullet, new Vector2(-xpos, ypos), Quaternion.identity);
+        StartCoroutine(BloodCoolTimer());
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.DrawWireSphere(new Vector2(xpos, ypos), 1);
+        Gizmos.DrawWireSphere(new Vector2(-xpos, ypos), 1);
+    }
+
+    IEnumerator BloodCoolTimer()
+    {
+        bossMng.anim.SetBool("isPlayBloodPud", true);
+        yield return new WaitForSeconds(bullet.GetComponent<BloodBomb>().GetBloodBombTimer());
+        bossMng.anim.SetBool("isPlayBloodPud", false);
+    }
+}

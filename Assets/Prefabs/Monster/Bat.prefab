@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 8803581358271903203}
   - component: {fileID: 8803581358271903201}
   - component: {fileID: 8803581358271903200}
-  - component: {fileID: 8803581358271903207}
   - component: {fileID: 838817824}
+  - component: {fileID: -1746787968618411372}
+  - component: {fileID: 803974028411825336}
   m_Layer: 15
   m_Name: Bat
   m_TagString: Monster
@@ -72,9 +73,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 4754826937556007664, guid: f6f6b2c0396ff2a47ae9c43c0aacad9e,
-    type: 3}
+  m_SortingOrder: 5
+  m_Sprite: {fileID: 21300000, guid: 19b44bd05a716e44faf2e1c65bc74a04, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -95,7 +95,7 @@ Animator:
   m_GameObject: {fileID: 8803581358271903196}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: cec60377fcb8a7a498d9f5c0d0819f75, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9500436ec55550944a03d0a03fc827ad, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -116,37 +116,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 199ab2d274f2cf14c9ae12ecd6f5a1ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shootDistance: 5.8
-  seekDistance: 9
+  shootDistance: 7
+  seekDistance: 15
   seekSpeed: 1
   shootDelay: 2
   bullet: {fileID: 8116114538281055171, guid: fc608142691e3d9489c7e27655128cd7, type: 3}
---- !u!61 &8803581358271903207
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8803581358271903196}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.06, y: 0.17}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.6, y: 1.6}
-    newSize: {x: 0.16, y: 0.16}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.49, y: 0.99}
-  m_EdgeRadius: 0
 --- !u!114 &838817824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -159,3 +133,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cce15649be5655148b635f13b3749826, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-1746787968618411372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8803581358271903196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 897f911eb51878a4b99c36896e7d7b8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &803974028411825336
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8803581358271903196}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.16, y: -0.31}
+  serializedVersion: 2
+  m_Radius: 0.57

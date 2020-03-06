@@ -1324,9 +1324,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddb0030fd13dbec4797e37b34cb554f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  line: {fileID: 0}
   origin: {fileID: 1197230975}
   line_width: 0.1
   speed: 30
+  velocity: {x: 0, y: 0, z: 0}
 --- !u!58 &615770483
 CircleCollider2D:
   m_ObjectHideFlags: 0
