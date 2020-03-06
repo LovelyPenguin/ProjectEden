@@ -1,15 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class VL_P1_Rage : MonoBehaviour
+public class Reset : MonoBehaviour
 {
-    BossStateManager bossMng;
-
     // Start is called before the first frame update
     void Start()
     {
-        bossMng.GetComponent<BossStateManager>();
+        
     }
 
     // Update is called once per frame
@@ -18,8 +17,8 @@ public class VL_P1_Rage : MonoBehaviour
         
     }
 
-    public void PushPlayer()
+    public void clock()
     {
-        Rigidbody2D playerRigidBody = bossMng.player.GetComponent<Rigidbody2D>();
+        SceneManager.LoadScene("GameMain");
     }
 }

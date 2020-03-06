@@ -5,10 +5,12 @@ using UnityEngine.Events;
 
 public class BossStateManager : MonoBehaviour
 {
-    [Header("패턴 목록")]
-    public UnityEvent[] bossEvents;
+    //[Header("패턴 목록")]
+    //public UnityEvent[] bossEvents;
+
     public Animator anim;
     public GameObject player;
+    public float rageTimer = 90f;
 
     private int stateNumber;
     private float timer = 1.5f;
@@ -28,7 +30,11 @@ public class BossStateManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        rageTimer -= Time.deltaTime;
+        if (rageTimer <= 0)
+        {
+            anim.SetBool("isPhase2", true);
+        }
     }
 
     private void LateUpdate()
@@ -39,10 +45,10 @@ public class BossStateManager : MonoBehaviour
         }
     }
 
-    public void SetBossPatterns()
-    {
-        bossEvents[0].Invoke();
-    }
+    //public void SetBossPatterns()
+    //{
+    //    bossEvents[0].Invoke();
+    //}
 
     public void SetScale(float num)
     {

@@ -70,7 +70,7 @@ public class VL_P1_BatShot2 : MonoBehaviour
                 timer = setTimer;
             }
             StartCoroutine(FireBullet(bullets[bulletArray], timerArray[i]));
-            //timer += bossMng.anim.GetFloat("Bullet_Shoot_Interval");
+            timer += bossMng.anim.GetFloat("Bullet_Shoot_Interval");
             bulletArray++;
         }
     }
