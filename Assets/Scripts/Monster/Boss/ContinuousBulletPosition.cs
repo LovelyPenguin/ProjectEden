@@ -8,8 +8,8 @@ public class ContinuousBulletPosition : StateMachineBehaviour
     public bool isStartLeft = false;
     [SerializeField]
     private float xpos = 0;
-    [SerializeField]
-    private float ypos = 0;
+    //[SerializeField]
+    //private float ypos = 0;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     //override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     //{
@@ -23,13 +23,13 @@ public class ContinuousBulletPosition : StateMachineBehaviour
         {
             if (animator.transform.position.x >= xpos && isStartLeft)
             {
-                animator.GetComponent<VL_P1_BatShot1>().SetBulletPostion(xpos, ypos);
+                animator.GetComponent<VL_P1_BatShot1>().SetBulletPostion(xpos, animator.transform.position.y);
                 isPlantBomb = true;
             }
 
             if (animator.transform.position.x <= xpos && !isStartLeft)
             {
-                animator.GetComponent<VL_P1_BatShot1>().SetBulletPostion(xpos, ypos);
+                animator.GetComponent<VL_P1_BatShot1>().SetBulletPostion(xpos, animator.transform.position.y);
                 isPlantBomb = true;
             }
         }
@@ -38,13 +38,13 @@ public class ContinuousBulletPosition : StateMachineBehaviour
         {
             if (animator.transform.position.x >= xpos && isStartLeft)
             {
-                animator.GetComponent<VL_P1_BatShot2>().SetBulletPostion(xpos, ypos);
+                animator.GetComponent<VL_P1_BatShot2>().SetBulletPostion(xpos, animator.transform.position.y);
                 isPlantBomb = true;
             }
 
             if (animator.transform.position.x <= xpos && !isStartLeft)
             {
-                animator.GetComponent<VL_P1_BatShot2>().SetBulletPostion(xpos, ypos);
+                animator.GetComponent<VL_P1_BatShot2>().SetBulletPostion(xpos, animator.transform.position.y);
                 isPlantBomb = true;
             }
         }

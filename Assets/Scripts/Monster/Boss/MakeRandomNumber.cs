@@ -8,8 +8,11 @@ public class MakeRandomNumber : StateMachineBehaviour
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        int number = Random.Range(0, range);
-        animator.SetInteger("RandomNumber", number);
+        if (!animator.GetBool("Debug_Mode"))
+        {
+            int number = Random.Range(0, range);
+            animator.SetInteger("RandomNumber", number);
+        }
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks

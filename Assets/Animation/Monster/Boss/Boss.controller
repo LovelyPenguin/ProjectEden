@@ -40,6 +40,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &-9193608053633650005
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -134,6 +135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &-9163257269130184820
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -168,6 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &-9119817843703549028
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -232,7 +235,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 1
   xpos: 15
-  ypos: 0
 --- !u!1102 &-9072284236174707719
 AnimatorState:
   serializedVersion: 5
@@ -696,18 +698,6 @@ AnimatorStateMachine:
   m_ExitPosition: {x: 830, y: 150, z: 0}
   m_ParentStateMachinePosition: {x: 330, y: -10, z: 0}
   m_DefaultState: {fileID: -9044629898873531432}
---- !u!114 &-8856864861466088339
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1101 &-8847717413870438902
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -754,7 +744,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -979,6 +969,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &-8685250384378458615
 AnimatorState:
   serializedVersion: 5
@@ -1132,7 +1123,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -1325,7 +1316,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -1375,7 +1366,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -1393,7 +1384,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 1
   xpos: 0
-  ypos: 0
 --- !u!114 &-8447896083441196763
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1407,7 +1397,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xpos: 15
-  ypos: 0
+  ypos: 3
 --- !u!114 &-8438309312347395191
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1495,7 +1485,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -1511,6 +1501,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &-8372475889348143093
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1523,6 +1514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &-8366217643916477795
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1536,8 +1528,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isStartLeft: 0
-  xpos: 7.5
-  ypos: 0
+  xpos: 3
 --- !u!1101 &-8359492661451341294
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -1650,6 +1641,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &-8318723916835416895
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1678,7 +1670,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: 7.5
-  ypos: 0
 --- !u!1102 &-8298170844647703044
 AnimatorState:
   serializedVersion: 5
@@ -1744,7 +1735,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -1824,6 +1815,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &-8259775270281649137
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1850,6 +1842,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &-8237787037932862654
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1915,6 +1908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &-8200955004370964431
 AnimatorState:
   serializedVersion: 5
@@ -1939,7 +1933,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -2070,7 +2064,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveToTargetXpos: -15
-  moveToTargetYpos: 0
+  moveToTargetYpos: 3
 --- !u!1107 &-8158704878873069398
 AnimatorStateMachine:
   serializedVersion: 5
@@ -2210,6 +2204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &-8083699561947139965
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -2414,20 +2409,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
---- !u!114 &-8047875867378935080
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 812bb2e3614c4c0488518d6028a828f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  setScale: 0
-  flipLock: 0
 --- !u!114 &-8017580102040732231
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -2440,6 +2421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1109 &-7987512837728597021
 AnimatorTransition:
   m_ObjectHideFlags: 3
@@ -2454,20 +2436,6 @@ AnimatorTransition:
   m_Mute: 0
   m_IsExit: 1
   serializedVersion: 1
---- !u!114 &-7972697889612753660
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 812bb2e3614c4c0488518d6028a828f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  setScale: 0
-  flipLock: 0
 --- !u!1101 &-7967796126762634454
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -2503,8 +2471,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isStartLeft: 0
-  xpos: -7.5
-  ypos: 0
+  xpos: 9
 --- !u!114 &-7962189102352491026
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -2519,7 +2486,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: 7.5
-  ypos: 0
 --- !u!114 &-7961909500536353052
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -2634,7 +2600,7 @@ AnimatorStateMachine:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: VL_P1_BatShot2
+  m_Name: 2_VL_P1_BatShot2
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -1718660329081186443}
@@ -2748,7 +2714,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: 7.5
-  ypos: 0
 --- !u!1102 &-7863457625398826081
 AnimatorState:
   serializedVersion: 5
@@ -2828,6 +2793,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &-7810576291001048545
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -2842,7 +2808,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 1
   xpos: -7.5
-  ypos: 0
 --- !u!114 &-7809128662546275549
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -2944,7 +2909,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -2960,6 +2925,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &-7760292493337440451
 AnimatorState:
   serializedVersion: 5
@@ -3045,7 +3011,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -3056,7 +3022,7 @@ AnimatorStateMachine:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: VL_P1_Rush
+  m_Name: 7_VL_P1_Rush
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 3004242238578510895}
@@ -3109,6 +3075,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &-7702633055725628699
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -3149,6 +3116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &-7651439479005075009
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -3247,7 +3215,8 @@ AnimatorState:
   - {fileID: 6479954866720170665}
   - {fileID: -7454451439143878401}
   - {fileID: 7224170448310779016}
-  - {fileID: -8047875867378935080}
+  - {fileID: 2757227755304284760}
+  - {fileID: 5136846558105789925}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -3349,7 +3318,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -3484,7 +3453,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -3671,8 +3640,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isStartLeft: 1
-  xpos: 0
-  ypos: 0
+  xpos: 3
 --- !u!1101 &-7452774042211128222
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -3749,6 +3717,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &-7422603143380071356
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -3783,6 +3752,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &-7418325523683627658
 AnimatorState:
   serializedVersion: 5
@@ -3807,7 +3777,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -3899,7 +3869,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 1
   xpos: 7.5
-  ypos: 0
 --- !u!1102 &-7367899646106567739
 AnimatorState:
   serializedVersion: 5
@@ -3952,7 +3921,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -3984,7 +3953,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: -15
-  ypos: 0
 --- !u!1102 &-7344894768474109939
 AnimatorState:
   serializedVersion: 5
@@ -4113,7 +4081,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -4344,6 +4312,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &-7148924301476390624
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -4467,7 +4436,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -4717,6 +4686,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &-7049392676822654408
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -4767,7 +4737,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: 0
-  ypos: 0
 --- !u!1101 &-7001652285266318865
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -5006,7 +4975,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -5054,6 +5023,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &-6890789745041768596
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -5130,6 +5100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &-6844750696832899099
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -5164,6 +5135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &-6826962549580269888
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -5291,7 +5263,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: 15
-  ypos: 0
 --- !u!114 &-6783260698552850349
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -5410,6 +5381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &-6724430478516148534
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -5444,6 +5416,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &-6722071153656861821
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -5650,7 +5623,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -5678,7 +5651,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -5851,7 +5824,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: -15
-  ypos: 0
 --- !u!1102 &-6557099661708751959
 AnimatorState:
   serializedVersion: 5
@@ -5977,7 +5949,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 1
   xpos: 15
-  ypos: 0
 --- !u!1102 &-6535678679086623144
 AnimatorState:
   serializedVersion: 5
@@ -6020,7 +5991,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: -15
-  ypos: 0
 --- !u!1101 &-6505264959150895861
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -6158,11 +6128,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &-6446236305324734901
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -6392,7 +6363,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -6464,7 +6435,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -6482,7 +6453,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 1
   xpos: 0
-  ypos: 0
 --- !u!1102 &-6213761236198783288
 AnimatorState:
   serializedVersion: 5
@@ -6573,6 +6543,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &-6153987363202628166
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -6599,6 +6570,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1107 &-6132875131930856737
 AnimatorStateMachine:
   serializedVersion: 5
@@ -6606,7 +6578,7 @@ AnimatorStateMachine:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: VL_P1_BloodExp
+  m_Name: 6_VL__P1_BloodExp
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -471335696024490130}
@@ -6649,7 +6621,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: 7.5
-  ypos: 0
 --- !u!1102 &-6107867657418152791
 AnimatorState:
   serializedVersion: 5
@@ -6738,7 +6709,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -7171,7 +7142,8 @@ AnimatorState:
   - {fileID: -5264413181482940000}
   - {fileID: 6867793693715501233}
   - {fileID: -352211672610602249}
-  - {fileID: -7972697889612753660}
+  - {fileID: 7892617726003448567}
+  - {fileID: -1449912293708182621}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -7212,6 +7184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &-5765787444515687838
 AnimatorState:
   serializedVersion: 5
@@ -7294,7 +7267,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveToTargetXpos: 15
-  moveToTargetYpos: 0
+  moveToTargetYpos: 3
 --- !u!1102 &-5735120458863294697
 AnimatorState:
   serializedVersion: 5
@@ -7456,7 +7429,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: -15
-  ypos: 0
 --- !u!1102 &-5608436405723453477
 AnimatorState:
   serializedVersion: 5
@@ -7497,6 +7469,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &-5598503453702924613
 AnimatorState:
   serializedVersion: 5
@@ -7521,7 +7494,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -7643,7 +7616,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -7659,6 +7632,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &-5548974569688658169
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -7875,6 +7849,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &-5448956179896587166
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -7887,6 +7862,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &-5446218617704202131
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -7901,7 +7877,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: 7.5
-  ypos: 0
 --- !u!114 &-5444346339716033800
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -7928,6 +7903,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &-5384254459849277207
 AnimatorState:
   serializedVersion: 5
@@ -7952,7 +7928,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -8005,7 +7981,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -8043,6 +8019,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &-5334018169896008484
 AnimatorState:
   serializedVersion: 5
@@ -8152,7 +8129,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -8169,8 +8146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isStartLeft: 1
-  xpos: 0
-  ypos: 0
+  xpos: -3
 --- !u!1101 &-5261089573595562623
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -8298,7 +8274,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 1
   xpos: 7.5
-  ypos: 0
 --- !u!1101 &-5191390520535444923
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -8358,6 +8333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &-5135286893751792632
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -8404,7 +8380,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -8422,7 +8398,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 1
   xpos: 7.5
-  ypos: 0
 --- !u!1109 &-5098785113972112543
 AnimatorTransition:
   m_ObjectHideFlags: 3
@@ -8479,7 +8454,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: -7.5
-  ypos: 0
 --- !u!1101 &-5057410992509747038
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -8554,7 +8528,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -8759,6 +8733,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &-4835086756412914077
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -8870,6 +8845,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &-4770765472482331251
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -8899,7 +8875,7 @@ AnimatorStateMachine:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: VL_P1_Summon
+  m_Name: 4_VL_P1_Summon
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 6103416200121838474}
@@ -8926,6 +8902,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &-4750639882918352374
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -8938,6 +8915,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &-4749360064663779674
 AnimatorState:
   serializedVersion: 5
@@ -9033,7 +9011,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -9085,8 +9063,7 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -6015615118000682826}
-  m_StateMachineBehaviours:
-  - {fileID: 7559837856406276281}
+  m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -9097,7 +9074,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -9241,7 +9218,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 1
   xpos: -7.5
-  ypos: 0
 --- !u!1109 &-4643476590086469060
 AnimatorTransition:
   m_ObjectHideFlags: 3
@@ -9302,7 +9278,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -9348,7 +9324,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: 0
-  ypos: 0
 --- !u!1109 &-4605875402245568814
 AnimatorTransition:
   m_ObjectHideFlags: 3
@@ -9541,7 +9516,7 @@ AnimatorStateMachine:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: VL_P1_BatShot3
+  m_Name: 3_VL_P1_BatShot3
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -6946791852900503077}
@@ -9580,6 +9555,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &-4464558562526211243
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -9628,6 +9604,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &-4427179951566581950
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -9971,7 +9948,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -10047,7 +10024,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -10089,7 +10066,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -10105,6 +10082,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &-4248514976144900732
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10184,7 +10162,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -10405,7 +10383,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: 7.5
-  ypos: 0
 --- !u!1102 &-4129151963373638773
 AnimatorState:
   serializedVersion: 5
@@ -10522,7 +10499,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -10565,7 +10542,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: 7.5
-  ypos: 0
 --- !u!1101 &-3988928809482266478
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -10708,6 +10684,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &-3934717429749531443
 AnimatorState:
   serializedVersion: 5
@@ -10732,7 +10709,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -10911,6 +10888,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &-3863379077503105565
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -10973,6 +10951,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &-3802622978174995541
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -11007,6 +10986,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &-3795625401580961287
 AnimatorState:
   serializedVersion: 5
@@ -11031,7 +11011,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -11047,6 +11027,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &-3780707513577151523
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -11184,6 +11165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &-3730623979239673110
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -11198,7 +11180,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: -7.5
-  ypos: 0
 --- !u!114 &-3726331658303315021
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -11288,6 +11269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &-3690160273664230825
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -11458,6 +11440,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &-3614372272126998349
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -11636,7 +11619,8 @@ AnimatorState:
   - {fileID: -7964988785033381270}
   - {fileID: -1805326345206221169}
   - {fileID: 5749429420109425776}
-  - {fileID: 7691379692871323613}
+  - {fileID: 9198090142936947957}
+  - {fileID: 9212924514521117200}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -11714,6 +11698,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &-3496063577384139527
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -11751,7 +11736,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -11840,7 +11825,7 @@ AnimatorStateMachine:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: VL_P1_BatShot1
+  m_Name: 1_VL_P1_BatShot1
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 8462836104054311783}
@@ -11940,7 +11925,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 1
   xpos: -7.5
-  ypos: 0
 --- !u!114 &-3426555514385630594
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -11988,6 +11972,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &-3383473330149012059
 AnimatorState:
   serializedVersion: 5
@@ -12052,7 +12037,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -12108,7 +12093,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -12174,6 +12159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &-3288015959729349009
 AnimatorState:
   serializedVersion: 5
@@ -12215,8 +12201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isStartLeft: 0
-  xpos: -7.5
-  ypos: 0
+  xpos: -9
 --- !u!1109 &-3235680788731826581
 AnimatorTransition:
   m_ObjectHideFlags: 3
@@ -12417,7 +12402,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -12506,7 +12491,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -12551,6 +12536,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1107 &-2966128810795089212
 AnimatorStateMachine:
   serializedVersion: 5
@@ -12588,7 +12574,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: 0
-  ypos: 0
 --- !u!114 &-2947466163595302115
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -12649,6 +12634,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1107 &-2856674197334343063
 AnimatorStateMachine:
   serializedVersion: 5
@@ -12732,6 +12718,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &-2832676325775559707
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -12744,6 +12731,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
+--- !u!114 &-2828811911229935043
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7269b190c7a40f648907799bc307f941, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isStartLeft: 0
+  xpos: 15
 --- !u!1107 &-2809789382072575159
 AnimatorStateMachine:
   serializedVersion: 5
@@ -12848,6 +12850,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &-2760085894588884217
 AnimatorState:
   serializedVersion: 5
@@ -12985,7 +12988,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -13141,6 +13144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &-2614644844501838604
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -13153,6 +13157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &-2612759285087854723
 AnimatorState:
   serializedVersion: 5
@@ -13329,7 +13334,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xpos: -15
-  ypos: 0
+  ypos: 3
 --- !u!114 &-2554072345054178884
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -13342,6 +13347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1109 &-2551539063916421384
 AnimatorTransition:
   m_ObjectHideFlags: 1
@@ -13432,6 +13438,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &-2463319177162969085
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -13459,7 +13466,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: -15
-  ypos: 0
 --- !u!1102 &-2431543710498353843
 AnimatorState:
   serializedVersion: 5
@@ -13523,7 +13529,7 @@ AnimatorStateMachine:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: VL_P1_Choping
+  m_Name: 8_VL_P1_Choping
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 4213810059326202797}
@@ -13567,6 +13573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &-2395767016331676526
 AnimatorState:
   serializedVersion: 5
@@ -13591,7 +13598,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -13609,7 +13616,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 1
   xpos: 0
-  ypos: 0
 --- !u!114 &-2378973295995901542
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -13788,6 +13794,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &-2308802333033058891
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -13861,11 +13868,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &-2268488981285210954
 AnimatorState:
   serializedVersion: 5
@@ -13906,6 +13914,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &-2262358125655988760
 AnimatorState:
   serializedVersion: 5
@@ -13930,7 +13939,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -13972,7 +13981,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -14166,6 +14175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &-2114321693392009288
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -14178,6 +14188,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &-2098069750632046975
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -14403,7 +14414,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -14527,6 +14538,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &-1865997139334795543
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -14539,6 +14551,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &-1856104319337783444
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -14551,6 +14564,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &-1847431224410782577
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -14563,6 +14577,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &-1846395540918058810
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -14575,6 +14590,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &-1810926699027689957
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -14587,6 +14603,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &-1805326345206221169
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -14600,8 +14617,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isStartLeft: 0
-  xpos: 0
-  ypos: 0
+  xpos: 3
 --- !u!114 &-1787203451633335781
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -14616,7 +14632,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: 0
-  ypos: 0
 --- !u!114 &-1786535680372821157
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -14655,7 +14670,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -14684,7 +14699,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -14700,6 +14715,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1107 &-1763668355955255969
 AnimatorStateMachine:
   serializedVersion: 5
@@ -14819,6 +14835,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &-1697176747542457028
 AnimatorState:
   serializedVersion: 5
@@ -14912,7 +14929,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -15184,7 +15201,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: -15
-  ypos: 0
 --- !u!114 &-1469517678423931885
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -15211,6 +15227,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46feafaf8cd5fee419e12d77205701ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-1449912293708182621
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7269b190c7a40f648907799bc307f941, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isStartLeft: 1
+  xpos: -15
 --- !u!1109 &-1436867209464139156
 AnimatorTransition:
   m_ObjectHideFlags: 1
@@ -15538,6 +15568,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &-1236935546448522608
 AnimatorState:
   serializedVersion: 5
@@ -15709,7 +15740,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -15727,7 +15758,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 1
   xpos: 0
-  ypos: 0
 --- !u!1101 &-1106191557642753659
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -15802,7 +15832,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -15832,6 +15862,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &-1063043516899790514
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -15846,7 +15877,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: -7.5
-  ypos: 0
 --- !u!1107 &-1055271191582158004
 AnimatorStateMachine:
   serializedVersion: 5
@@ -15915,7 +15945,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: -15
-  ypos: 0
 --- !u!114 &-969871082241985317
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -15928,6 +15957,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &-965732443255578355
 AnimatorState:
   serializedVersion: 5
@@ -15952,7 +15982,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -16050,6 +16080,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &-903931092492083760
 AnimatorState:
   serializedVersion: 5
@@ -16068,6 +16099,8 @@ AnimatorState:
   - {fileID: -3278021098378960103}
   - {fileID: 3071127385349778165}
   - {fileID: -8366217643916477795}
+  - {fileID: 3870250243628382282}
+  - {fileID: -2828811911229935043}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -16094,6 +16127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &-889463481063094789
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -16155,7 +16189,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 1
   xpos: 15
-  ypos: 0
 --- !u!1101 &-869015316519369462
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -16213,7 +16246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveToTargetXpos: 15
-  moveToTargetYpos: 0
+  moveToTargetYpos: 3
 --- !u!114 &-852932808129956584
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -16240,6 +16273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &-847017513849328240
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -16274,6 +16308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &-842174280502432283
 AnimatorState:
   serializedVersion: 5
@@ -16403,6 +16438,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &-773086273407856122
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -16517,7 +16553,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: -7.5
-  ypos: 0
 --- !u!1101 &-669285149240876558
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -16748,6 +16783,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1107 &-550868467063927476
 AnimatorStateMachine:
   serializedVersion: 5
@@ -16897,7 +16933,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: 7.5
-  ypos: 0
 --- !u!114 &-511022457169047191
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -17107,6 +17142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &-457656137923572159
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -17120,7 +17156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xpos: -15
-  ypos: 0
+  ypos: 3
 --- !u!114 &-452004584696680369
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -17181,7 +17217,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -17209,7 +17245,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -17321,6 +17357,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &-352211672610602249
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -17334,8 +17371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isStartLeft: 1
-  xpos: 15
-  ypos: 0
+  xpos: 9
 --- !u!1101 &-324336415141917006
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -17454,6 +17490,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &-263908288618673588
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -17466,6 +17503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &-251872033504460985
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -17594,6 +17632,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &-174362718476569253
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -17779,7 +17818,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -17875,7 +17914,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 1
   xpos: -7.5
-  ypos: 0
 --- !u!1109 &-79011066382270469
 AnimatorTransition:
   m_ObjectHideFlags: 3
@@ -17983,6 +18021,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &-29270428401061700
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -18110,6 +18149,12 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
+  - m_Name: Debug_Mode
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 1
+    m_Controller: {fileID: 0}
   - m_Name: Bullet_Shoot_Interval
     m_Type: 1
     m_DefaultFloat: 1
@@ -18122,7 +18167,7 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: Phase1_MutiplieTeleportSpeed
+  - m_Name: Phase_MutiplieTeleportSpeed
     m_Type: 1
     m_DefaultFloat: 1.5
     m_DefaultInt: 0
@@ -18224,6 +18269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &59491936871753697
 AnimatorState:
   serializedVersion: 5
@@ -18276,7 +18322,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -18349,6 +18395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &125174828112504842
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -18363,7 +18410,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 1
   xpos: 0
-  ypos: 0
 --- !u!1102 &128367340430245162
 AnimatorState:
   serializedVersion: 5
@@ -18418,6 +18464,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: -0.3
 --- !u!1101 &162706005256812859
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -18464,7 +18511,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -18492,7 +18539,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -18607,7 +18654,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: 0
-  ypos: 0
 --- !u!114 &219966619057336172
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -18674,7 +18720,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -18742,7 +18788,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -18758,6 +18804,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &292578682507681697
 AnimatorState:
   serializedVersion: 5
@@ -18837,7 +18884,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -18853,6 +18900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &320601748042927214
 AnimatorState:
   serializedVersion: 5
@@ -19035,7 +19083,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -19186,7 +19234,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: 0
-  ypos: 0
 --- !u!1101 &499100674388460927
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -19224,6 +19271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &509155325430046699
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -19270,7 +19318,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -19352,6 +19400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &549475133383703813
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -19549,6 +19598,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &671682443143320200
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -19575,6 +19625,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &696949590684505812
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -19645,6 +19696,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &729120482247985394
 AnimatorState:
   serializedVersion: 5
@@ -19669,7 +19721,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -19729,6 +19781,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &752338540052810643
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -19794,6 +19847,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &784005837069950049
 AnimatorState:
   serializedVersion: 5
@@ -20100,6 +20154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &859858633865563283
 AnimatorState:
   serializedVersion: 5
@@ -20162,6 +20217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &883026797442422670
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -20196,6 +20252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &908327221904100652
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -20222,6 +20279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &933608976132528330
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -20332,7 +20390,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -20443,7 +20501,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -20652,6 +20710,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &1037533194096193600
 AnimatorState:
   serializedVersion: 5
@@ -20711,8 +20770,7 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 5519432190310031587}
-  m_StateMachineBehaviours:
-  - {fileID: -8856864861466088339}
+  m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -20723,7 +20781,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -20812,7 +20870,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: -7.5
-  ypos: 0
 --- !u!114 &1126351815880308327
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -21114,7 +21171,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -21216,6 +21273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1109 &1307282966122290257
 AnimatorTransition:
   m_ObjectHideFlags: 3
@@ -21270,6 +21328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &1317646181512447440
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -21359,6 +21418,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &1341991075881474304
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -21500,6 +21560,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &1436671253165324633
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -21881,6 +21942,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &1628495441508572634
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -21893,6 +21955,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1107 &1634036085284961237
 AnimatorStateMachine:
   serializedVersion: 5
@@ -22078,7 +22141,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -22315,7 +22378,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 1
   xpos: -7.5
-  ypos: 0
 --- !u!1101 &1810842551642852522
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -22362,7 +22424,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -22412,6 +22474,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &1864504290272356310
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -22545,7 +22608,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 1
   xpos: 15
-  ypos: 0
 --- !u!1102 &1995517892337142801
 AnimatorState:
   serializedVersion: 5
@@ -22623,6 +22685,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &2055019945934551297
 AnimatorState:
   serializedVersion: 5
@@ -22719,7 +22782,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -22776,7 +22839,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -22804,7 +22867,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -23034,7 +23097,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -23062,7 +23125,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -23226,7 +23289,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -23276,7 +23339,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: -15
-  ypos: 0
 --- !u!1102 &2443378169554579239
 AnimatorState:
   serializedVersion: 5
@@ -23317,6 +23379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &2450297960248684133
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -23530,7 +23593,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: -7.5
-  ypos: 0
 --- !u!1102 &2536225103193879001
 AnimatorState:
   serializedVersion: 5
@@ -23555,7 +23617,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -23571,6 +23633,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1107 &2548683780300443686
 AnimatorStateMachine:
   serializedVersion: 5
@@ -23755,7 +23818,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 1
   xpos: 0
-  ypos: 0
 --- !u!114 &2620884991174615875
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -23768,6 +23830,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &2626515263186448651
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -23837,7 +23900,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 1
   xpos: 7.5
-  ypos: 0
 --- !u!1101 &2687652885484135552
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -24060,6 +24122,20 @@ AnimatorStateMachine:
   m_ExitPosition: {x: 590, y: 300, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: -5511981434297144970}
+--- !u!114 &2757227755304284760
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7269b190c7a40f648907799bc307f941, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isStartLeft: 1
+  xpos: -9
 --- !u!1109 &2790703006177272798
 AnimatorTransition:
   m_ObjectHideFlags: 1
@@ -24159,7 +24235,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9831de7ee2f6b8748856e33782a57580, type: 3}
   m_Name: 
@@ -24207,7 +24283,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 1
   xpos: 7.5
-  ypos: 0
 --- !u!114 &2861779969306037699
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -24270,6 +24345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &2943920132588892415
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -24304,6 +24380,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &2975223584622578293
 AnimatorState:
   serializedVersion: 5
@@ -24346,7 +24423,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 1
   xpos: 0
-  ypos: 0
 --- !u!114 &2990426037593100432
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -24361,7 +24437,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 1
   xpos: -7.5
-  ypos: 0
 --- !u!1102 &3004242238578510895
 AnimatorState:
   serializedVersion: 5
@@ -24460,7 +24535,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -24533,8 +24608,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isStartLeft: 0
-  xpos: 0
-  ypos: 0
+  xpos: -3
 --- !u!1101 &3080410506121950881
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -24843,6 +24917,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &3221936787726721327
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -24869,6 +24944,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &3241824280591269393
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -24881,6 +24957,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &3250780275386231885
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -24893,6 +24970,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &3251456366677631863
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -24953,7 +25031,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -24991,6 +25069,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &3357712584852759775
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -25028,7 +25107,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -25068,7 +25147,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: -15
-  ypos: 0
 --- !u!114 &3379909481515029351
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -25081,6 +25159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &3389919114851609720
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -25131,7 +25210,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 1
   xpos: 0
-  ypos: 0
 --- !u!114 &3412527120300309435
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -25144,6 +25222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1107 &3417052087881696887
 AnimatorStateMachine:
   serializedVersion: 5
@@ -25266,6 +25345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &3507350745871191040
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -25280,7 +25360,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 1
   xpos: 7.5
-  ypos: 0
 --- !u!1101 &3529855282201662994
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -25536,6 +25615,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &3660305739617488118
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -25620,6 +25700,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1107 &3675412873005956454
 AnimatorStateMachine:
   serializedVersion: 5
@@ -25747,6 +25828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &3745943553457466119
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -26045,10 +26127,24 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!114 &3870250243628382282
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7269b190c7a40f648907799bc307f941, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isStartLeft: 0
+  xpos: 9
 --- !u!1102 &3876470786060025100
 AnimatorState:
   serializedVersion: 5
@@ -26204,6 +26300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &3955553471503874682
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -26230,6 +26327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1107 &3981173978338411119
 AnimatorStateMachine:
   serializedVersion: 5
@@ -26380,7 +26478,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -26398,7 +26496,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: -7.5
-  ypos: 0
 --- !u!1101 &4128908842182580768
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -26596,6 +26693,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &4243211021322075937
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -26647,6 +26745,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &4269814460643063955
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -26904,7 +27003,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -26920,6 +27019,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &4445260606763006328
 AnimatorState:
   serializedVersion: 5
@@ -27001,6 +27101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &4495111858134754291
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -27027,6 +27128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &4509268662314830992
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -27088,6 +27190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &4540605187307494407
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -27116,7 +27219,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 1
   xpos: 15
-  ypos: 0
 --- !u!114 &4550640185572370802
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -27138,7 +27240,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2f52ce90abd70ec479b763b230c6e24b, type: 3}
   m_Name: 
@@ -27157,6 +27259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &4633438147889305923
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -27229,7 +27332,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 1
   xpos: 7.5
-  ypos: 0
 --- !u!114 &4670012176017270349
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -27456,7 +27558,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -27545,7 +27647,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -27561,6 +27663,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &4924142786419482244
 AnimatorState:
   serializedVersion: 5
@@ -27603,7 +27706,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 1
   xpos: -7.5
-  ypos: 0
 --- !u!114 &4927656103162123501
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -27616,6 +27718,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &4937755391809909388
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -27697,6 +27800,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &4973199812047130067
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -27784,7 +27888,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: -15
-  ypos: 0
 --- !u!1101 &5024945357935493169
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -27831,7 +27934,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -27925,7 +28028,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -27953,7 +28056,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -28035,6 +28138,20 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+--- !u!114 &5136846558105789925
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7269b190c7a40f648907799bc307f941, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isStartLeft: 1
+  xpos: -15
 --- !u!1109 &5155587953645278175
 AnimatorTransition:
   m_ObjectHideFlags: 3
@@ -28123,7 +28240,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -28239,7 +28356,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 1
   xpos: 15
-  ypos: 0
 --- !u!114 &5260590696818894840
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -28396,6 +28512,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &5388943023610416345
 AnimatorState:
   serializedVersion: 5
@@ -28438,7 +28555,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: -7.5
-  ypos: 0
 --- !u!1107 &5431440126596595248
 AnimatorStateMachine:
   serializedVersion: 5
@@ -28446,7 +28562,7 @@ AnimatorStateMachine:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: VL_P1_BloodPud
+  m_Name: 5_VL_P1_BloodPud
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -2612759285087854723}
@@ -28499,7 +28615,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -28612,6 +28728,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &5519432190310031587
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -28790,6 +28907,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &5699220359328463150
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -28802,6 +28920,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &5749429420109425776
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -28815,8 +28934,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isStartLeft: 0
-  xpos: 7.5
-  ypos: 0
+  xpos: -3
 --- !u!1102 &5755847792581843324
 AnimatorState:
   serializedVersion: 5
@@ -28841,7 +28959,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -28869,7 +28987,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -28913,6 +29031,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &5771428033628581228
 AnimatorState:
   serializedVersion: 5
@@ -28937,7 +29056,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -29078,6 +29197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &5893964116715876864
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -29116,7 +29236,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveToTargetXpos: -15
-  moveToTargetYpos: 0
+  moveToTargetYpos: 3
 --- !u!114 &5909046435169932630
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -29155,7 +29275,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -29474,7 +29594,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -29592,6 +29712,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &6103416200121838474
 AnimatorState:
   serializedVersion: 5
@@ -29955,7 +30076,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -30062,6 +30183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &6313643191109945437
 AnimatorState:
   serializedVersion: 5
@@ -30086,7 +30208,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -30191,7 +30313,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -30236,6 +30358,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1107 &6436058007528504336
 AnimatorStateMachine:
   serializedVersion: 5
@@ -30355,8 +30478,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isStartLeft: 1
-  xpos: 7.5
-  ypos: 0
+  xpos: 9
 --- !u!1101 &6484525390650561331
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -30615,7 +30737,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -30878,7 +31000,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -30906,7 +31028,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -30987,6 +31109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1107 &6799324598177514654
 AnimatorStateMachine:
   serializedVersion: 5
@@ -31070,6 +31193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &6807644936018079145
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -31108,7 +31232,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -31259,8 +31383,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isStartLeft: 1
-  xpos: 7.5
-  ypos: 0
+  xpos: 3
 --- !u!1102 &6886922274480343664
 AnimatorState:
   serializedVersion: 5
@@ -31330,6 +31453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &6929487642829807430
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -31364,6 +31488,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &6938035818024793572
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -31440,6 +31565,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1107 &6995334255982947220
 AnimatorStateMachine:
   serializedVersion: 5
@@ -31564,7 +31690,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 1
   xpos: 15
-  ypos: 0
 --- !u!114 &7096044938463467284
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -31579,7 +31704,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: 0
-  ypos: 0
 --- !u!1101 &7105761440331426545
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -31651,7 +31775,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -31667,6 +31791,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &7180360564511276658
 AnimatorState:
   serializedVersion: 5
@@ -31745,7 +31870,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 1
   xpos: 15
-  ypos: 0
 --- !u!1107 &7207766933027262855
 AnimatorStateMachine:
   serializedVersion: 5
@@ -31821,8 +31945,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isStartLeft: 1
-  xpos: -7.5
-  ypos: 0
+  xpos: -3
 --- !u!1107 &7238559471767868263
 AnimatorStateMachine:
   serializedVersion: 5
@@ -31857,6 +31980,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &7256123981344801503
 AnimatorState:
   serializedVersion: 5
@@ -31881,7 +32005,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -31937,7 +32061,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -32348,7 +32472,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -32400,6 +32524,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &7508246105540943883
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -32568,18 +32693,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
---- !u!114 &7559837856406276281
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1101 &7568035640429483759
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -32761,20 +32874,6 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!114 &7691379692871323613
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 812bb2e3614c4c0488518d6028a828f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  setScale: 0
-  flipLock: 0
 --- !u!1107 &7698476479960567693
 AnimatorStateMachine:
   serializedVersion: 5
@@ -32877,7 +32976,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -32894,7 +32993,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xpos: 15
-  ypos: 0
+  ypos: 3
 --- !u!114 &7775757555742239212
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -32931,7 +33030,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -32969,6 +33068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1109 &7803496848879792900
 AnimatorTransition:
   m_ObjectHideFlags: 1
@@ -33067,6 +33167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &7854550661306406055
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -33114,7 +33215,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -33168,6 +33269,20 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+--- !u!114 &7892617726003448567
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7269b190c7a40f648907799bc307f941, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isStartLeft: 1
+  xpos: 15
 --- !u!114 &7903226138425019148
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -33182,7 +33297,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: 0
-  ypos: 0
 --- !u!114 &7903270983050944236
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -33197,7 +33311,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: 0
-  ypos: 0
 --- !u!1101 &7923061235939417357
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -33319,7 +33432,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -33417,8 +33530,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isStartLeft: 1
-  xpos: -7.5
-  ypos: 0
+  xpos: -9
 --- !u!1101 &7992609053591479226
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -33512,7 +33624,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: -7.5
-  ypos: 0
 --- !u!114 &8034513023450243482
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -33705,6 +33816,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &8158671894120911233
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -33717,6 +33829,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &8180016122587192527
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -33743,6 +33856,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &8194402079634101000
 AnimatorState:
   serializedVersion: 5
@@ -33783,6 +33897,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &8199517168595002913
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -33959,7 +34074,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -33977,7 +34092,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 0
   xpos: 7.5
-  ypos: 0
 --- !u!1101 &8354071011090729737
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -34070,6 +34184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &8406183692225908263
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -34118,6 +34233,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &8441108637019995320
 AnimatorState:
   serializedVersion: 5
@@ -34142,7 +34258,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -34160,7 +34276,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 1
   xpos: 15
-  ypos: 0
 --- !u!1102 &8462836104054311783
 AnimatorState:
   serializedVersion: 5
@@ -34563,7 +34678,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -34605,7 +34720,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -34646,7 +34761,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: f675fb6b89e5c55439cadeec64f9d7da, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -34664,7 +34779,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 1
   xpos: 7.5
-  ypos: 0
 --- !u!1101 &8694521584756515005
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -34807,7 +34921,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -34908,6 +35022,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &8809872234066353431
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -35083,6 +35198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &8864199713703283451
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -35193,7 +35309,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStartLeft: 1
   xpos: -7.5
-  ypos: 0
 --- !u!114 &8918696041506759860
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -35295,7 +35410,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -35347,6 +35462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &8977295622570364541
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -35359,6 +35475,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1102 &8986412322183015493
 AnimatorState:
   serializedVersion: 5
@@ -35449,6 +35566,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!114 &9052802977009641924
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -35461,6 +35579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &9059361043989167380
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -35495,6 +35614,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
 --- !u!1101 &9098126829387377574
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -35557,6 +35677,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e216b8f961889745872f7252deabb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0.8
 --- !u!1102 &9131154183984333553
 AnimatorState:
   serializedVersion: 5
@@ -35711,7 +35832,7 @@ AnimatorState:
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: c0117da1aa89b4f4e939834167c57194, type: 2}
   m_Tag: 
-  m_SpeedParameter: Phase1_MutiplieTeleportSpeed
+  m_SpeedParameter: Phase_MutiplieTeleportSpeed
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
@@ -35773,3 +35894,31 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+--- !u!114 &9198090142936947957
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7269b190c7a40f648907799bc307f941, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isStartLeft: 0
+  xpos: -9
+--- !u!114 &9212924514521117200
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7269b190c7a40f648907799bc307f941, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isStartLeft: 0
+  xpos: 15

@@ -7,23 +7,20 @@ public class VL_P1_BatShot2 : MonoBehaviour
     [SerializeField]
     private GameObject bullet;
 
-    private GameObject[] bullets = new GameObject[5];
+    private GameObject[] bullets;
     private float setTimer;
     private float timer;
     private BossStateManager bossMng;
 
     private int bulletArray = 0;
 
-    private float[] timerArray = new float[5];
+    public int bulletAmount;
     // Start is called before the first frame update
     void Start()
     {
         setTimer = timer;
         bossMng = GetComponent<BossStateManager>();
-        for (int i = 0; i < 5; i++)
-        {
-            timerArray[i] = -1;
-        }
+        bullets = new GameObject[bulletAmount];
     }
 
     // Update is called once per frame
@@ -34,7 +31,7 @@ public class VL_P1_BatShot2 : MonoBehaviour
 
     public void SetBulletPostion()
     {
-        if (bulletArray >= 5)
+        if (bulletArray >= bulletAmount)
         {
             bulletArray = 0;
         }
@@ -44,7 +41,7 @@ public class VL_P1_BatShot2 : MonoBehaviour
 
     public void SetBulletPostion(float xpos, float ypos)
     {
-        if (bulletArray >= 5)
+        if (bulletArray >= bulletAmount)
         {
             bulletArray = 0;
         }
@@ -54,22 +51,14 @@ public class VL_P1_BatShot2 : MonoBehaviour
 
     public void BulletFire()
     {
-        float temp = 0;
-
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < bulletAmount; i++)
         {
-            timerArray[i] = temp;
-            temp += bossMng.anim.GetFloat("Bullet_Shoot_Interval");
-            int randomNumber = Random.Range(0, 5);
-        }
-        for (int i = 0; i < 5; i++)
-        {
-            if (bulletArray >= 5)
+            if (bulletArray >= bulletAmount)
             {
                 bulletArray = 0;
                 timer = setTimer;
             }
-            StartCoroutine(FireBullet(bullets[bulletArray], timerArray[i]));
+            StartCoroutine(FireBullet(bullets[bulletArray], timer));
             timer += bossMng.anim.GetFloat("Bullet_Shoot_Interval");
             bulletArray++;
         }
@@ -77,7 +66,7 @@ public class VL_P1_BatShot2 : MonoBehaviour
 
     public void ResetData()
     {
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < bulletAmount; i++)
         {
             bullets[i] = null;
         }

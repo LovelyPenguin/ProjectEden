@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shootDistance: 7
-  seekDistance: 15
+  seekDistance: 30
   seekSpeed: 1
   shootDelay: 2
   bullet: {fileID: 8116114538281055171, guid: fc608142691e3d9489c7e27655128cd7, type: 3}

@@ -6,6 +6,7 @@ using UnityEngine.Events;
 public class SetBulletPosition : StateMachineBehaviour
 {
     //public UnityEvent functionEvent;
+    public float option; 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     //override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     //{
@@ -32,7 +33,7 @@ public class SetBulletPosition : StateMachineBehaviour
 
         else if (animator.GetInteger("PatternKey") == (int)BossStatesPhase1.VL_P1_BatShot3)
         {
-            animator.GetComponent<VL_P1_BatShot3>().SetBulletPostion();
+            animator.GetComponent<VL_P1_BatShot3>().SetBulletPostion(option);
         }
 
         else if (animator.GetInteger("PatternKey") == (int)BossStatesPhase1.VL_P1_Summon)

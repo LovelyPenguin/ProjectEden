@@ -7,16 +7,21 @@ public class VL_P1_BatShot3 : MonoBehaviour
     [SerializeField]
     private GameObject bullet;
 
-    private GameObject[] bullets = new GameObject[5];
+    private GameObject[] bullets;
     private float setTimer;
     private float timer;
     private BossStateManager bossMng;
     private int bulletArray = 0;
+
+    public int bulletAmount;
+
+    public SetBulletPosition test;
     // Start is called before the first frame update
     void Start()
     {
         setTimer = timer;
         bossMng = GetComponent<BossStateManager>();
+        bullets = new GameObject[bulletAmount];
     }
 
     // Update is called once per frame
@@ -25,11 +30,11 @@ public class VL_P1_BatShot3 : MonoBehaviour
 
     }
 
-    public void SetBulletPostion()
+    public void SetBulletPostion(float option)
     {
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < bulletAmount; i++)
         {
-            if (bulletArray >= 5)
+            if (bulletArray >= bulletAmount)
             {
                 bulletArray = 0;
             }
@@ -40,14 +45,14 @@ public class VL_P1_BatShot3 : MonoBehaviour
             if (transform.position.x > 0)
             {
                 bulletRigidBody.AddForce(new Vector2(
-                    (Mathf.Sin(bossMng.anim.GetFloat("VL_BatShot3_Spread_Strength") * bulletArray + bossMng.anim.GetFloat("VL_BatShot3_Spread_Angle") * 2.3f / 4) * bossMng.anim.GetFloat("Phase1_Bullet_Speed") * 50),
-                    (Mathf.Cos(bossMng.anim.GetFloat("VL_BatShot3_Spread_Strength") * bulletArray + bossMng.anim.GetFloat("VL_BatShot3_Spread_Angle") * 2.3f / 4) * bossMng.anim.GetFloat("Phase1_Bullet_Speed") * 50)));
+                    (Mathf.Sin(bossMng.anim.GetFloat("VL_BatShot3_Spread_Strength") * bulletArray + (bossMng.anim.GetFloat("VL_BatShot3_Spread_Angle") + option) * 2.3f / 4) * bossMng.anim.GetFloat("Phase1_Bullet_Speed") * 50),
+                    (Mathf.Cos(bossMng.anim.GetFloat("VL_BatShot3_Spread_Strength") * bulletArray + (bossMng.anim.GetFloat("VL_BatShot3_Spread_Angle") + option) * 2.3f / 4) * bossMng.anim.GetFloat("Phase1_Bullet_Speed") * 50)));
             }
             else
             {
                 bulletRigidBody.AddForce(new Vector2(
-                    (Mathf.Sin(bossMng.anim.GetFloat("VL_BatShot3_Spread_Strength") * bulletArray + bossMng.anim.GetFloat("VL_BatShot3_Spread_Angle") / 4) * bossMng.anim.GetFloat("Phase1_Bullet_Speed") * 50),
-                    (Mathf.Cos(bossMng.anim.GetFloat("VL_BatShot3_Spread_Strength") * bulletArray + bossMng.anim.GetFloat("VL_BatShot3_Spread_Angle") / 4) * bossMng.anim.GetFloat("Phase1_Bullet_Speed") * 50)));
+                    (Mathf.Sin(bossMng.anim.GetFloat("VL_BatShot3_Spread_Strength") * bulletArray + (bossMng.anim.GetFloat("VL_BatShot3_Spread_Angle") + option) / 4) * bossMng.anim.GetFloat("Phase1_Bullet_Speed") * 50),
+                    (Mathf.Cos(bossMng.anim.GetFloat("VL_BatShot3_Spread_Strength") * bulletArray + (bossMng.anim.GetFloat("VL_BatShot3_Spread_Angle") + option) / 4) * bossMng.anim.GetFloat("Phase1_Bullet_Speed") * 50)));
             }
 
             bulletArray++;
@@ -56,7 +61,7 @@ public class VL_P1_BatShot3 : MonoBehaviour
 
     public void ResetData()
     {
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < bulletAmount; i++)
         {
             bullets[i] = null;
         }
