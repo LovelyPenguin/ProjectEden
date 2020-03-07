@@ -169,8 +169,8 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
+  near clip plane: 1.4
+  far clip plane: 1000.15
   field of view: 60
   orthographic: 1
   orthographic size: 5
@@ -306,7 +306,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -264, y: -150}
+  m_AnchoredPosition: {x: -217, y: -115}
   m_SizeDelta: {x: 160, y: 58.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &212826634
@@ -322,6 +322,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 0}
+  bullet: {fileID: 0}
 --- !u!114 &212826635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -449,7 +450,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 272, y: -156}
+  m_AnchoredPosition: {x: 216, y: -116}
   m_SizeDelta: {x: 160, y: 58.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1220895585
@@ -465,6 +466,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 0}
+  bullet: {fileID: 0}
 --- !u!114 &1220895586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -881,10 +883,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 24
+    m_FontSize: 17
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 0
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0

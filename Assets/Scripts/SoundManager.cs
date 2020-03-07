@@ -11,7 +11,9 @@ public class SoundManager : MonoBehaviour
 
     public AudioClip PCThrowKnife;
     public AudioClip PCThrowKnife2;
-
+    public AudioClip MonsterDead;
+    public AudioClip PCJUMP;
+    public AudioClip PCDash;
 
     private void Awake()
     {
@@ -42,4 +44,22 @@ public class SoundManager : MonoBehaviour
         }
         
     }
+
+
+    public void PlayerJump()
+    {
+        myAudio.PlayOneShot(PCJUMP);
+
+    }
+    public void PlayerDash()
+    {
+        myAudio.PlayOneShot(PCDash);
+    }
+
+    public void MonsterDown()
+    {
+        myAudio.PlayOneShot(MonsterDead);
+
+    }
+
 }
