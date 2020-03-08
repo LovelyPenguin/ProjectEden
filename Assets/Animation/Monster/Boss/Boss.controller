@@ -12036,9 +12036,12 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: isPhase2
     m_EventTreshold: 8
-  - m_ConditionMode: 1
+  - m_ConditionMode: 2
     m_ConditionEvent: Phase1_Chopping
     m_EventTreshold: 0
+  - m_ConditionMode: 6
+    m_ConditionEvent: PatternKey
+    m_EventTreshold: 10
   m_DstStateMachine: {fileID: -2412570351650201723}
   m_DstState: {fileID: 0}
   m_Solo: 0
@@ -19232,7 +19235,7 @@ AnimatorController:
   - m_Name: PatternKey
     m_Type: 3
     m_DefaultFloat: 0
-    m_DefaultInt: 0
+    m_DefaultInt: 5
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
   - m_Name: PreviousPatternKey
@@ -19263,7 +19266,7 @@ AnimatorController:
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 1
+    m_DefaultBool: 0
     m_Controller: {fileID: 0}
   - m_Name: isPlayBloodPud
     m_Type: 4
@@ -19364,7 +19367,7 @@ AnimatorController:
   - m_Name: VL_Blood_Exp_Bullet_Count
     m_Type: 3
     m_DefaultFloat: 0
-    m_DefaultInt: 40
+    m_DefaultInt: 15
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
   - m_Name: VL_Rush_Speed
@@ -21280,9 +21283,6 @@ AnimatorStateMachine:
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions:
-  - first: {fileID: 6061562746891187643}
-    second:
-    - {fileID: -1071802423012897849}
   - first: {fileID: -3448237823322870691}
     second:
     - {fileID: 7803496848879792900}
@@ -21337,6 +21337,9 @@ AnimatorStateMachine:
   - first: {fileID: -8991000960234799340}
     second:
     - {fileID: 2195835564526057765}
+  - first: {fileID: 6061562746891187643}
+    second:
+    - {fileID: -1071802423012897849}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 680, y: -430, z: 0}
   m_EntryPosition: {x: 520, y: -80, z: 0}
@@ -27154,12 +27157,12 @@ AnimatorStateMachine:
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions:
-  - first: {fileID: -4996863286570084984}
-    second:
-    - {fileID: -6694221028643217044}
   - first: {fileID: -3697337828970211885}
     second:
     - {fileID: -761403075345712983}
+  - first: {fileID: -4996863286570084984}
+    second:
+    - {fileID: -6694221028643217044}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 50, y: 20, z: 0}
   m_EntryPosition: {x: -20, y: 150, z: 0}
@@ -31343,18 +31346,18 @@ AnimatorStateMachine:
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions:
-  - first: {fileID: -4025512459454423993}
-    second:
-    - {fileID: 7483035446364600290}
-  - first: {fileID: -5280011440043414537}
-    second:
-    - {fileID: -7384750719159763942}
-  - first: {fileID: 3668837084977659976}
-    second:
-    - {fileID: 4170289553603158081}
   - first: {fileID: 2117048225980004349}
     second:
     - {fileID: 4279845537924679706}
+  - first: {fileID: 3668837084977659976}
+    second:
+    - {fileID: 4170289553603158081}
+  - first: {fileID: -5280011440043414537}
+    second:
+    - {fileID: -7384750719159763942}
+  - first: {fileID: -4025512459454423993}
+    second:
+    - {fileID: 7483035446364600290}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 310, y: 280, z: 0}
   m_EntryPosition: {x: 300, y: -240, z: 0}

@@ -137,6 +137,7 @@ public abstract class VL_BatShot : MonoBehaviour
         }
         bulletArray = 0;
         //timer = setTimer;
+        interval = 0;
     }
 
     protected virtual IEnumerator FireBullet(GameObject bullet, float time)
@@ -147,7 +148,6 @@ public abstract class VL_BatShot : MonoBehaviour
     public Vector2 startPosition;
     public Vector2 endPosition;
     private float interval = 0;
-    public GameObject testObject;
     private Vector2 bombPosition;
 
     private void OnDrawGizmosSelected()

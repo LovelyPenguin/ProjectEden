@@ -30,10 +30,17 @@ public class BossStateManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        rageTimer -= Time.deltaTime;
+        if (rageTimer >= 0)
+        {
+            rageTimer -= Time.deltaTime;
+        }
         if (rageTimer <= 0)
         {
             anim.SetBool("isPhase2", true);
+            if (!anim.GetBool("Phase1_Chopping"))
+            {
+                anim.SetInteger("PatternKey", 10);
+            }
         }
     }
 
@@ -72,5 +79,13 @@ public class BossStateManager : MonoBehaviour
             //transform.localScale = new Vector2(1, 1);
         }
         previosXpos = transform.position.x;
+    }
+
+    public float GetRageTime
+    {
+        get
+        {
+            return rageTimer;
+        }
     }
 }
