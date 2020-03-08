@@ -45,26 +45,20 @@ public class Player : MonoBehaviour
     public LayerMask mask2;  
     public Aim aim;
 
-    Vector3 targetPos;
-
-    
-
+    LineRenderer line;
+    DistanceJoint2D joint;
     Rigidbody2D rigid;
     Animator anim;
-    DistanceJoint2D joint;
-
 
 
     void Start()
     {
+        line = GameObject.FindGameObjectWithTag("Rope").GetComponent<LineRenderer>();
+        joint = GetComponent<DistanceJoint2D>();
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        originalXscale = transform.localScale.x;
-        joint = GetComponent<DistanceJoint2D>();
-        joint.enabled = false;
-    
-
-
+        originalXscale = transform.localScale.x;     
+              
     }
 
     void CheckDash()
@@ -144,15 +138,15 @@ public class Player : MonoBehaviour
 
             if (Input.GetButton("Jump") && isGround && canJump)
             {
+              
                 Jump();
                 canJump = false;
             }
-
             else if (Input.GetButton("Jump") && joint.enabled && canJump)
             {
                 Jump();
                 joint.enabled = false;
-            
+                line.enabled = false;
                 canJump = false;
             }
             else if (Input.GetButton("Jump") && isWall && canJump)
@@ -164,32 +158,8 @@ public class Player : MonoBehaviour
             {
                 canJump = true;
             }
-            if (Input.GetKey(KeyCode.W))
-            {
-                if (5 < joint.distance)
-                    joint.distance -= 0.08f;
-            }
-            if (Input.GetKey(KeyCode.S))
-            {
-                if (10 > joint.distance)
-                    joint.distance += 0.08f;
-            }
-
-            if (Input.GetMouseButtonDown(1))
-            {
-                Invoke("Grapple", 0.3f);
-                KGrapple();
-            }
-
-            if (Input.GetMouseButtonUp(1))
-            {
-                joint.enabled = false;
-              
-
-            }
-
-
-            if (Input.GetButton("Dash") && !isWall)
+         
+            if (Input.GetButton("Dash") && !isWall && !joint.enabled)
             {
                 if (Time.time >= (lastDash + dashCoolDown))
                     AttempToDash();
@@ -201,7 +171,6 @@ public class Player : MonoBehaviour
             isDashing = true;
             dashTimeLeft = dashTime;
             lastDash = Time.time;
-
             PlayerAfterrImagePool.Instance.GetFromPool();
             lastImageXpos = transform.position.x;
         }
@@ -231,10 +200,10 @@ public class Player : MonoBehaviour
                 }
             }
 
-            if (joint.enabled)
-                rigid.AddForce(new Vector2(grapplePower * moveDirection, 0));
+        if (joint.enabled)
+            rigid.AddForce(new Vector2(grapplePower * moveDirection, 0));
 
-            else if (canMove)
+        else if (canMove)
                 rigid.velocity = new Vector2(moveDirection * speed, rigid.velocity.y);
 
 
@@ -257,49 +226,11 @@ public class Player : MonoBehaviour
       
         }
 
-        void Grapple()
-        {
-
-            targetPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            targetPos.z = 0;
-
-            RaycastHit2D ray = Physics2D.Raycast(transform.position, targetPos - transform.position, distance, mask);
-
-
-            if (ray.collider != null && ray.collider.gameObject.GetComponent<Rigidbody2D>() != null)
-            {
-
-                joint.enabled = true;
-                joint.connectedBody = ray.collider.gameObject.GetComponent<Rigidbody2D>();
-                joint.connectedAnchor = ray.point - new Vector2(ray.collider.transform.position.x, ray.collider.transform.position.y);
-                joint.distance = Vector2.Distance(transform.position, ray.point);
-
-
-              
-
-            }
-        }
-
-        void KGrapple()
-        {
-            targetPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            targetPos.z = 0;
-
-            RaycastHit2D ray2 = Physics2D.Raycast(transform.position, targetPos - transform.position, distance, mask2);
-
-            if (ray2.collider != null && ray2.collider.gameObject.GetComponent<Rigidbody2D>() != null)
-            {
-
-                joint.enabled = true;
-                joint.connectedBody = ray2.collider.gameObject.GetComponent<Rigidbody2D>();
-                joint.connectedAnchor = ray2.point - new Vector2(ray2.collider.transform.position.x, ray2.collider.transform.position.y);
-            
-            }
-        }
-
+   
         void Jump()
         {
             rigid.velocity = new Vector2(rigid.velocity.x, jumpPower);
+            
         }
 
 
