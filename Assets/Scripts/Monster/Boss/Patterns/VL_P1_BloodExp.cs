@@ -28,12 +28,14 @@ public class VL_P1_BloodExp : MonoBehaviour
             if (bossMng.anim.GetBool("isPhase2"))
             {
                 bullets.GetComponent<Test>().enabled = true;
-                bullets.GetComponent<Test>().Value(i);
+                //bullets.GetComponent<Test>().Value(i);
             }
             Rigidbody2D bulletsRigidBody = bullets.GetComponent<Rigidbody2D>();
             bulletsRigidBody.AddForce(new Vector2(
-                Mathf.Sin(Mathf.PI * 2 * i / bossMng.anim.GetInteger("VL_Blood_Exp_Bullet_Count")) * bossMng.anim.GetFloat("Phase1_Bullet_Speed") * 50,
-                Mathf.Cos(Mathf.PI * 2 * i / bossMng.anim.GetInteger("VL_Blood_Exp_Bullet_Count")) * bossMng.anim.GetFloat("Phase1_Bullet_Speed") * 50));
+                Mathf.Cos(Mathf.PI * 2 * i / bossMng.anim.GetInteger("VL_Blood_Exp_Bullet_Count")) * bossMng.anim.GetFloat("Phase1_Bullet_Speed") * 50,
+                Mathf.Sin(Mathf.PI * 2 * i / bossMng.anim.GetInteger("VL_Blood_Exp_Bullet_Count")) * bossMng.anim.GetFloat("Phase1_Bullet_Speed") * 50));
+
+            bullets.transform.Rotate(new Vector3(0, 0, 360f * i / bossMng.anim.GetInteger("VL_Blood_Exp_Bullet_Count")));
         }
     }
 
