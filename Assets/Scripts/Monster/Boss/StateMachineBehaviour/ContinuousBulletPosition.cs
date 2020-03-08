@@ -23,13 +23,13 @@ public class ContinuousBulletPosition : StateMachineBehaviour
         {
             if (animator.transform.position.x >= xpos && isStartLeft)
             {
-                animator.GetComponent<VL_P1_BatShot1>().SetBulletPostion(xpos, animator.transform.position.y);
+                animator.GetComponent<VL_P1_BatShot1>().SetBulletPostion(xpos, animator.transform.position.y, isStartLeft);
                 isPlantBomb = true;
             }
 
             if (animator.transform.position.x <= xpos && !isStartLeft)
             {
-                animator.GetComponent<VL_P1_BatShot1>().SetBulletPostion(xpos, animator.transform.position.y);
+                animator.GetComponent<VL_P1_BatShot1>().SetBulletPostion(xpos, animator.transform.position.y, isStartLeft);
                 isPlantBomb = true;
             }
         }
@@ -38,13 +38,13 @@ public class ContinuousBulletPosition : StateMachineBehaviour
         {
             if (animator.transform.position.x >= xpos && isStartLeft)
             {
-                animator.GetComponent<VL_P1_BatShot2>().SetBulletPostion(xpos, animator.transform.position.y);
+                animator.GetComponent<VL_P1_BatShot2>().SetBulletPostion(xpos, animator.transform.position.y, isStartLeft);
                 isPlantBomb = true;
             }
 
             if (animator.transform.position.x <= xpos && !isStartLeft)
             {
-                animator.GetComponent<VL_P1_BatShot2>().SetBulletPostion(xpos, animator.transform.position.y);
+                animator.GetComponent<VL_P1_BatShot2>().SetBulletPostion(xpos, animator.transform.position.y, isStartLeft);
                 isPlantBomb = true;
             }
         }

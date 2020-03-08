@@ -316,6 +316,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 0
   ypos: 0
+  option: 0
 --- !u!1101 &-9046964601599654450
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -714,6 +715,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -15
   ypos: 0
+  option: 0
 --- !u!1101 &-8893415380741584386
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -756,6 +758,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -15
   ypos: 0
+  option: 0
 --- !u!1101 &-8865971624165602269
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -1020,6 +1023,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 0
   ypos: 0
+  option: 0
 --- !u!1107 &-8760922604183798436
 AnimatorStateMachine:
   serializedVersion: 5
@@ -1542,6 +1546,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 15
   ypos: 3
+  option: 0
 --- !u!114 &-8438309312347395191
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1883,6 +1888,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 7.5
   ypos: 0
+  option: 0
 --- !u!1102 &-8289873621772336045
 AnimatorState:
   serializedVersion: 5
@@ -2029,6 +2035,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 15
   ypos: 0
+  option: 0
 --- !u!114 &-8225096946294083830
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -2411,6 +2418,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 15
   ypos: 0
+  option: 0
 --- !u!114 &-8086345084614391904
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -2719,6 +2727,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 15
   ypos: 0
+  option: 0
 --- !u!1101 &-7941953775865496744
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -2919,6 +2928,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 15
   ypos: 0
+  option: 0
 --- !u!1101 &-7891100726560175154
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -2997,6 +3007,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 7.5
   ypos: 0
+  option: 0
 --- !u!1107 &-7818783751377847520
 AnimatorStateMachine:
   serializedVersion: 5
@@ -3063,6 +3074,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 7.5
   ypos: 0
+  option: 0
 --- !u!1102 &-7777937363638905755
 AnimatorState:
   serializedVersion: 5
@@ -3318,6 +3330,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 15
   ypos: 0
+  option: 0
 --- !u!114 &-7724811619717221726
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -3345,6 +3358,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 7.5
   ypos: 0
+  option: 0
 --- !u!114 &-7689688875163251839
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -3359,6 +3373,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 0
   ypos: 0
+  option: 0
 --- !u!114 &-7673223483266585744
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -3620,6 +3635,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -15
   ypos: 0
+  option: 0
 --- !u!1101 &-7526386984633265411
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -3989,6 +4005,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -15
   ypos: 0
+  option: 0
 --- !u!114 &-7440413109322431914
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -4503,6 +4520,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 7.5
   ypos: 0
+  option: 0
 --- !u!1102 &-7243596386774165598
 AnimatorState:
   serializedVersion: 5
@@ -4545,6 +4563,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 14
   ypos: 5
+  option: 0
 --- !u!1102 &-7229956217458468914
 AnimatorState:
   serializedVersion: 5
@@ -4752,6 +4771,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 15
   ypos: 0
+  option: 0
 --- !u!1101 &-7091688442138643147
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -5018,6 +5038,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 15
   ypos: 0
+  option: 0
 --- !u!114 &-7012113014701792324
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -5217,6 +5238,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 0
   ypos: 0
+  option: 0
 --- !u!1102 &-6946791852900503077
 AnimatorState:
   serializedVersion: 5
@@ -5572,6 +5594,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 0
   ypos: 0
+  option: 0
 --- !u!1102 &-6773924476186648620
 AnimatorState:
   serializedVersion: 5
@@ -5748,6 +5771,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 15
   ypos: 0
+  option: 0
 --- !u!114 &-6700963042601601463
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -5762,6 +5786,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 15
   ypos: 0
+  option: 0
 --- !u!1109 &-6694221028643217044
 AnimatorTransition:
   m_ObjectHideFlags: 3
@@ -5897,6 +5922,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -7.5
   ypos: 0
+  option: 0
 --- !u!1109 &-6641144704623480392
 AnimatorTransition:
   m_ObjectHideFlags: 3
@@ -6203,6 +6229,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -15
   ypos: 0
+  option: 0
 --- !u!1101 &-6546676639900735517
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -6704,6 +6731,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 7.5
   ypos: 0
+  option: 0
 --- !u!1102 &-6257985586850806172
 AnimatorState:
   serializedVersion: 5
@@ -6972,6 +7000,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -15
   ypos: 0
+  option: 0
 --- !u!114 &-6108248071472034253
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -7374,6 +7403,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 15
   ypos: 0
+  option: 0
 --- !u!1101 &-5919531604697595273
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -7432,6 +7462,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -7.5
   ypos: 0
+  option: 0
 --- !u!1102 &-5840863503581065695
 AnimatorState:
   serializedVersion: 5
@@ -7530,6 +7561,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 7.5
   ypos: 0
+  option: 0
 --- !u!1102 &-5809645483241906923
 AnimatorState:
   serializedVersion: 5
@@ -7578,6 +7610,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 15
   ypos: 0
+  option: 0
 --- !u!114 &-5771944339502161823
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -8240,6 +8273,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -15
   ypos: 0
+  option: 0
 --- !u!1102 &-5469182583234088049
 AnimatorState:
   serializedVersion: 5
@@ -8322,6 +8356,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 0
   ypos: 0
+  option: 0
 --- !u!114 &-5397506387339740410
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -8575,10 +8610,13 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 5496108439928871950}
-    m_Position: {x: 140, y: 240, z: 0}
+    m_Position: {x: 270, y: 230, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1363304659599196464}
-    m_Position: {x: 370, y: 240, z: 0}
+    m_Position: {x: 480, y: 170, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 8580313969921642413}
+    m_Position: {x: 80, y: 330, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -9188,6 +9226,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 0
   ypos: 2
+  option: 0
 --- !u!1109 &-4881892048533020281
 AnimatorTransition:
   m_ObjectHideFlags: 3
@@ -9216,6 +9255,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -15
   ypos: 0
+  option: 0
 --- !u!1109 &-4871010393237890716
 AnimatorTransition:
   m_ObjectHideFlags: 1
@@ -9489,6 +9529,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 0
   ypos: 0
+  option: 0
 --- !u!1102 &-4742775758259433928
 AnimatorState:
   serializedVersion: 5
@@ -10300,6 +10341,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 7.5
   ypos: 0
+  option: 0
 --- !u!114 &-4342796015163803132
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -10314,6 +10356,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 0
   ypos: 2
+  option: 0
 --- !u!1102 &-4342504177617534671
 AnimatorState:
   serializedVersion: 5
@@ -10573,6 +10616,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -7.5
   ypos: 0
+  option: 0
 --- !u!1102 &-4253076289966597370
 AnimatorState:
   serializedVersion: 5
@@ -10628,6 +10672,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 15
   ypos: 0
+  option: 0
 --- !u!114 &-4234937926775439006
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -10858,6 +10903,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 7.5
   ypos: 0
+  option: 0
 --- !u!114 &-4163820144403608403
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -10872,6 +10918,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 7.5
   ypos: 0
+  option: 0
 --- !u!1102 &-4159233281870732019
 AnimatorState:
   serializedVersion: 5
@@ -11369,6 +11416,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 15
   ypos: 0
+  option: 0
 --- !u!114 &-3903308662213534135
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -11806,6 +11854,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 0
   ypos: 0
+  option: 0
 --- !u!1101 &-3715079949124955259
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -11905,6 +11954,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 15
   ypos: 0
+  option: 0
 --- !u!1102 &-3687023325331924911
 AnimatorState:
   serializedVersion: 5
@@ -12143,6 +12193,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 7.5
   ypos: 0
+  option: 0
 --- !u!1102 &-3597799686581020842
 AnimatorState:
   serializedVersion: 5
@@ -12989,6 +13040,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -7.5
   ypos: 0
+  option: 0
 --- !u!1101 &-3158624948523836944
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -13025,6 +13077,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 0
   ypos: 0
+  option: 0
 --- !u!1101 &-3111216039540876640
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -13364,6 +13417,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -15
   ypos: 0
+  option: 0
 --- !u!1101 &-2860951770549516280
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -13826,6 +13880,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -14
   ypos: 5
+  option: 0
 --- !u!114 &-2663729738423493011
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -14127,6 +14182,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -15
   ypos: 3
+  option: 0
 --- !u!114 &-2554072345054178884
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -14168,6 +14224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -7.5
   ypos: 0
+  option: 0
 --- !u!114 &-2524398675842110049
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -14182,6 +14239,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 0
   ypos: 0
+  option: 0
 --- !u!1109 &-2522420562984060738
 AnimatorTransition:
   m_ObjectHideFlags: 3
@@ -14353,6 +14411,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -7.5
   ypos: 0
+  option: 0
 --- !u!114 &-2396047017993919446
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -14530,6 +14589,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -7.5
   ypos: 0
+  option: 0
 --- !u!1101 &-2341684386592571899
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -15305,6 +15365,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 15
   ypos: 0
+  option: 0
 --- !u!1101 &-1900710625334846078
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -15693,6 +15754,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 0
   ypos: 0
+  option: 0
 --- !u!1102 &-1649721997003853162
 AnimatorState:
   serializedVersion: 5
@@ -16062,6 +16124,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -15
   ypos: 0
+  option: 0
 --- !u!114 &-1455274321376681269
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -16738,6 +16801,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 0
   ypos: 0
+  option: 0
 --- !u!1109 &-1071802423012897849
 AnimatorTransition:
   m_ObjectHideFlags: 1
@@ -17244,6 +17308,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 15
   ypos: 0
+  option: 0
 --- !u!114 &-851433570776235064
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -17334,6 +17399,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 7.5
   ypos: 0
+  option: 0
 --- !u!1102 &-791743563331998280
 AnimatorState:
   serializedVersion: 5
@@ -17450,6 +17516,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -15
   ypos: 0
+  option: 0
 --- !u!1109 &-761403075345712983
 AnimatorTransition:
   m_ObjectHideFlags: 3
@@ -17547,6 +17614,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 7.5
   ypos: 0
+  option: 0
 --- !u!114 &-681422909146367601
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -17561,6 +17629,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -15
   ypos: 0
+  option: 0
 --- !u!114 &-673300865299041206
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -17660,6 +17729,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 15
   ypos: 0
+  option: 0
 --- !u!1109 &-639869130864011554
 AnimatorTransition:
   m_ObjectHideFlags: 3
@@ -18179,6 +18249,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -15
   ypos: 3
+  option: 0
 --- !u!114 &-452004584696680369
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -18193,6 +18264,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -7.5
   ypos: 0
+  option: 0
 --- !u!1101 &-443041055616618229
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -18345,6 +18417,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 0
   ypos: 0
+  option: 0
 --- !u!1101 &-381456096281015752
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -18430,6 +18503,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -7.5
   ypos: 0
+  option: 0
 --- !u!1101 &-312569279251991428
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -18466,6 +18540,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -7.5
   ypos: 0
+  option: 0
 --- !u!1107 &-268259597842476648
 AnimatorStateMachine:
   serializedVersion: 5
@@ -18713,6 +18788,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 7.5
   ypos: 0
+  option: 0
 --- !u!1102 &-160044760795792278
 AnimatorState:
   serializedVersion: 5
@@ -19017,6 +19093,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -7.5
   ypos: 0
+  option: 0
 --- !u!1109 &-35867723284692182
 AnimatorTransition:
   m_ObjectHideFlags: 3
@@ -19150,12 +19227,12 @@ AnimatorController:
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 1
+    m_DefaultBool: 0
     m_Controller: {fileID: 0}
   - m_Name: PatternKey
     m_Type: 3
     m_DefaultFloat: 0
-    m_DefaultInt: 6
+    m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
   - m_Name: PreviousPatternKey
@@ -19186,7 +19263,7 @@ AnimatorController:
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 0
+    m_DefaultBool: 1
     m_Controller: {fileID: 0}
   - m_Name: isPlayBloodPud
     m_Type: 4
@@ -19222,7 +19299,7 @@ AnimatorController:
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 1
+    m_DefaultBool: 0
     m_Controller: {fileID: 0}
   - m_Name: '-------------------------------------------------- 0 1'
     m_Type: 9
@@ -19725,6 +19802,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 15
   ypos: 0
+  option: 0
 --- !u!1101 &209259277700352191
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -19761,6 +19839,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 14
   ypos: 5
+  option: 0
 --- !u!114 &210905561769406240
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -19789,6 +19868,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -7.5
   ypos: 0
+  option: 0
 --- !u!1102 &224469208172997616
 AnimatorState:
   serializedVersion: 5
@@ -19955,6 +20035,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -7.5
   ypos: 0
+  option: 0
 --- !u!114 &300917556508368424
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -19969,6 +20050,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -7.5
   ypos: 0
+  option: 0
 --- !u!1102 &306524397150357169
 AnimatorState:
   serializedVersion: 5
@@ -20524,6 +20606,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 7.5
   ypos: 0
+  option: 0
 --- !u!1101 &580214673473017132
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -20722,6 +20805,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -15
   ypos: 0
+  option: 0
 --- !u!114 &684322638820174836
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -20793,6 +20877,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 15
   ypos: 0
+  option: 0
 --- !u!114 &715990569785728417
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -21093,6 +21178,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -15
   ypos: 0
+  option: 0
 --- !u!1101 &815744402996702890
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -21621,6 +21707,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 0
   ypos: 0
+  option: 0
 --- !u!1101 &975110613550260646
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -21771,6 +21858,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -7.5
   ypos: 0
+  option: 0
 --- !u!1101 &1007151413561731453
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -21924,6 +22012,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -15
   ypos: 0
+  option: 0
 --- !u!1102 &1062508211982598960
 AnimatorState:
   serializedVersion: 5
@@ -22050,6 +22139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 0
   ypos: 0
+  option: 0
 --- !u!1109 &1144890168713378310
 AnimatorTransition:
   m_ObjectHideFlags: 3
@@ -22355,6 +22445,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 0
   ypos: 0
+  option: 0
 --- !u!1101 &1281716774355065033
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -22509,6 +22600,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -15
   ypos: 0
+  option: 0
 --- !u!1107 &1322438114111793855
 AnimatorStateMachine:
   serializedVersion: 5
@@ -22865,6 +22957,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -15
   ypos: 0
+  option: 0
 --- !u!114 &1449958645956431097
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -22927,6 +23020,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 0
   ypos: 0
+  option: 0
 --- !u!114 &1513776671206344041
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -22941,6 +23035,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -7.5
   ypos: 0
+  option: 0
 --- !u!1102 &1538610617997509527
 AnimatorState:
   serializedVersion: 5
@@ -23752,6 +23847,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 7.5
   ypos: 0
+  option: 0
 --- !u!1101 &1928830324406091722
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -23882,6 +23978,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 7.5
   ypos: 0
+  option: 0
 --- !u!1101 &2033331768718976000
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -24712,6 +24809,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -15
   ypos: 0
+  option: 0
 --- !u!1102 &2482072551589957834
 AnimatorState:
   serializedVersion: 5
@@ -24830,6 +24928,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 15
   ypos: 0
+  option: 0
 --- !u!1102 &2492366038654601348
 AnimatorState:
   serializedVersion: 5
@@ -24872,6 +24971,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 15
   ypos: 0
+  option: 0
 --- !u!114 &2518348658111002485
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -25138,6 +25238,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 15
   ypos: 0
+  option: 0
 --- !u!1102 &2647857300324045146
 AnimatorState:
   serializedVersion: 5
@@ -25229,6 +25330,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 7.5
   ypos: 0
+  option: 0
 --- !u!1101 &2691302118217896962
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -25265,6 +25367,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -7.5
   ypos: 0
+  option: 0
 --- !u!1102 &2704019376767521876
 AnimatorState:
   serializedVersion: 5
@@ -25307,6 +25410,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 15
   ypos: 0
+  option: 0
 --- !u!114 &2723349128471269509
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -25321,6 +25425,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -7.5
   ypos: 0
+  option: 0
 --- !u!1109 &2728510407800062274
 AnimatorTransition:
   m_ObjectHideFlags: 3
@@ -25590,6 +25695,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 15
   ypos: 0
+  option: 0
 --- !u!1101 &2888239228656514922
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -25626,6 +25732,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 7.5
   ypos: 0
+  option: 0
 --- !u!1101 &2922031685417359221
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -25960,6 +26067,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 0
   ypos: 2
+  option: 0
 --- !u!1107 &3098987586102067108
 AnimatorStateMachine:
   serializedVersion: 5
@@ -26247,6 +26355,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 0
   ypos: 0
+  option: 0
 --- !u!114 &3224091835356676086
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -26322,6 +26431,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -15
   ypos: 0
+  option: 0
 --- !u!1102 &3334329710304687185
 AnimatorState:
   serializedVersion: 5
@@ -27493,6 +27603,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -14
   ypos: 5
+  option: 0
 --- !u!1102 &3866636248491780366
 AnimatorState:
   serializedVersion: 5
@@ -27576,6 +27687,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -7.5
   ypos: 0
+  option: 0
 --- !u!114 &3919026217478733602
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -27656,6 +27768,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -14
   ypos: 5
+  option: 0
 --- !u!1101 &3946874364157598304
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -27944,6 +28057,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 0
   ypos: 0
+  option: 0
 --- !u!114 &4141693769027003323
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -27958,6 +28072,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -15
   ypos: 0
+  option: 0
 --- !u!114 &4144244484566762372
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -28217,6 +28332,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -7.5
   ypos: 0
+  option: 0
 --- !u!1102 &4272989094589010610
 AnimatorState:
   serializedVersion: 5
@@ -28273,6 +28389,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 7.5
   ypos: 0
+  option: 0
 --- !u!114 &4295734500925246525
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -28322,6 +28439,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 0
   ypos: 0
+  option: 0
 --- !u!1102 &4368971142922520479
 AnimatorState:
   serializedVersion: 5
@@ -28364,6 +28482,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 7.5
   ypos: 0
+  option: 0
 --- !u!114 &4379478730331166903
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -28378,6 +28497,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -7.5
   ypos: 0
+  option: 0
 --- !u!1101 &4388874304331705880
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -28546,6 +28666,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -15
   ypos: 0
+  option: 0
 --- !u!114 &4481013217849468569
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -28587,6 +28708,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -7.5
   ypos: 0
+  option: 0
 --- !u!114 &4506037091447608002
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -28676,6 +28798,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 7.5
   ypos: 0
+  option: 0
 --- !u!114 &4548594193016316565
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -28817,6 +28940,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 0
   ypos: 0
+  option: 0
 --- !u!1101 &4689079652892204314
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -29287,6 +29411,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 7.5
   ypos: 0
+  option: 0
 --- !u!1107 &4982706901967698014
 AnimatorStateMachine:
   serializedVersion: 5
@@ -29972,6 +30097,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 15
   ypos: 0
+  option: 0
 --- !u!1101 &5388586748924895766
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -30685,6 +30811,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 15
   ypos: 0
+  option: 0
 --- !u!1102 &5819782050810464854
 AnimatorState:
   serializedVersion: 5
@@ -30727,6 +30854,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 7.5
   ypos: 0
+  option: 0
 --- !u!1107 &5846435625937680876
 AnimatorStateMachine:
   serializedVersion: 5
@@ -30846,6 +30974,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -15
   ypos: 0
+  option: 0
 --- !u!1102 &5932726010305941668
 AnimatorState:
   serializedVersion: 5
@@ -30980,6 +31109,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 0
   ypos: 2
+  option: 0
 --- !u!1102 &5986011940742103334
 AnimatorState:
   serializedVersion: 5
@@ -31022,6 +31152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 0
   ypos: 0
+  option: 0
 --- !u!1102 &5990986122564056076
 AnimatorState:
   serializedVersion: 5
@@ -31360,6 +31491,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 0
   ypos: 0
+  option: 0
 --- !u!114 &6101674388681244516
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -31939,6 +32071,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 7.5
   ypos: 0
+  option: 0
 --- !u!1101 &6374184824871303783
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -32319,6 +32452,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -14
   ypos: 5
+  option: 0
 --- !u!1101 &6527225573592011354
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -32503,6 +32637,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 14
   ypos: 5
+  option: 0
 --- !u!1102 &6626205115504827462
 AnimatorState:
   serializedVersion: 5
@@ -32545,6 +32680,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -7.5
   ypos: 0
+  option: 0
 --- !u!1109 &6661443155418709182
 AnimatorTransition:
   m_ObjectHideFlags: 3
@@ -32810,6 +32946,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -15
   ypos: 0
+  option: 0
 --- !u!1101 &6791473741717953655
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -33105,6 +33242,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -15
   ypos: 0
+  option: 0
 --- !u!114 &6867793693715501233
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -33260,6 +33398,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 14
   ypos: 5
+  option: 0
 --- !u!1107 &6956824385868230920
 AnimatorStateMachine:
   serializedVersion: 5
@@ -33922,6 +34061,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -15
   ypos: 0
+  option: 0
 --- !u!1101 &7295374992520365130
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -34082,6 +34222,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -15
   ypos: 0
+  option: 0
 --- !u!1102 &7340762136416282406
 AnimatorState:
   serializedVersion: 5
@@ -34352,6 +34493,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 15
   ypos: 0
+  option: 0
 --- !u!114 &7521448446184034966
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -34366,6 +34508,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 14
   ypos: 5
+  option: 0
 --- !u!1102 &7538641800267680059
 AnimatorState:
   serializedVersion: 5
@@ -34807,6 +34950,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 15
   ypos: 3
+  option: 0
 --- !u!114 &7775757555742239212
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -35046,6 +35190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 15
   ypos: 0
+  option: 0
 --- !u!114 &7884973828111360621
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -35060,6 +35205,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 15
   ypos: 0
+  option: 0
 --- !u!1101 &7891391245782798084
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -35451,6 +35597,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -15
   ypos: 0
+  option: 0
 --- !u!114 &8041749324007270069
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -35465,6 +35612,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 0
   ypos: 0
+  option: 0
 --- !u!114 &8065863796936757456
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -35739,6 +35887,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 7.5
   ypos: 0
+  option: 0
 --- !u!114 &8234633383129404021
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -35977,6 +36126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 0
   ypos: 0
+  option: 0
 --- !u!1101 &8399625050287489877
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -36048,6 +36198,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -7.5
   ypos: 0
+  option: 0
 --- !u!114 &8432083972419778035
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -36173,6 +36324,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 0
   ypos: 0
+  option: 0
 --- !u!1101 &8493424360077092708
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -36209,6 +36361,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: 0
   ypos: 2
+  option: 0
 --- !u!1102 &8499333413512830696
 AnimatorState:
   serializedVersion: 5
@@ -36306,6 +36459,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -14
   ypos: 5
+  option: 0
 --- !u!1101 &8563708869269997244
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -36331,6 +36485,32 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+--- !u!1102 &8580313969921642413
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Move
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 24a1fdcdec36b7541b78d8829f86cb10, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1101 &8589756682877117623
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
@@ -36394,7 +36574,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xpos: 0
-  ypos: 2
+  ypos: 5.35
+  option: 1
 --- !u!1102 &8603966604865810766
 AnimatorState:
   serializedVersion: 5
@@ -36537,6 +36718,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -7.5
   ypos: 0
+  option: 0
 --- !u!1102 &8678885641120001525
 AnimatorState:
   serializedVersion: 5
@@ -36851,6 +37033,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -15
   ypos: 0
+  option: 0
 --- !u!114 &8803335594453927665
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -37164,6 +37347,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -7.5
   ypos: 0
+  option: 0
 --- !u!114 &8922002966232825735
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -37178,6 +37362,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpos: -15
   ypos: 0
+  option: 0
 --- !u!1101 &8929367708832660939
 AnimatorStateTransition:
   m_ObjectHideFlags: 1

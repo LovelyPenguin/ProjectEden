@@ -46,13 +46,13 @@ public abstract class VL_BatShot : MonoBehaviour
         bulletArray++;
     }
 
-    public void SetBulletPostion(float xpos, float ypos)
+    public void SetBulletPostion(float xpos, float ypos, bool isLeftStart)
     {
         if (bulletArray >= bulletAmount)
         {
             bulletArray = 0;
         }
-        bullets[bulletArray] = Instantiate(this.bullet, new Vector2(xpos, ypos), Quaternion.identity);
+        bullets[bulletArray] = Instantiate(this.bullet, CaculatorBombDistance(bulletArray, isLeftStart), Quaternion.identity);
         bulletArray++;
     }
 
@@ -100,7 +100,7 @@ public abstract class VL_BatShot : MonoBehaviour
                 bulletArray++;
             }
 
-            
+
         }
     }
 
@@ -142,5 +142,38 @@ public abstract class VL_BatShot : MonoBehaviour
     protected virtual IEnumerator FireBullet(GameObject bullet, float time)
     {
         return null;
+    }
+
+    public Vector2 startPosition;
+    public Vector2 endPosition;
+    private float interval = 0;
+    public GameObject testObject;
+    private Vector2 bombPosition;
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = new Color(0, 255, 0);
+        Gizmos.DrawWireSphere(startPosition, 1f);
+
+        Gizmos.color = new Color(255, 0, 0);
+        Gizmos.DrawWireSphere(endPosition, 1f);
+    }
+
+    public Vector2 CaculatorBombDistance(int index, bool isLeftStart)
+    {
+        float distance = Vector2.Distance(startPosition, endPosition) / (bulletAmount - 1);
+
+        if (isLeftStart)
+        {
+            bombPosition.x = startPosition.x + interval;
+        }
+        else
+        {
+            bombPosition.x = endPosition.x - interval;
+        }
+        bombPosition.y = transform.position.y;
+        interval += distance;
+
+        return bombPosition;
     }
 }

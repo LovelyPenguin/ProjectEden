@@ -950,6 +950,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1292828951, guid: a09d5cfa8089b0442871f8d0368cfcb0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1292828951, guid: a09d5cfa8089b0442871f8d0368cfcb0, type: 3}
+      propertyPath: startPosition.x
+      value: -15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1292828951, guid: a09d5cfa8089b0442871f8d0368cfcb0, type: 3}
+      propertyPath: endPosition.x
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 1292828953, guid: a09d5cfa8089b0442871f8d0368cfcb0, type: 3}
       propertyPath: readyPos.y
       value: -4.5
@@ -1018,10 +1030,31 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9058396094193123810, guid: a09d5cfa8089b0442871f8d0368cfcb0,
+        type: 3}
+      propertyPath: startPosition.x
+      value: -15
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058396094193123810, guid: a09d5cfa8089b0442871f8d0368cfcb0,
+        type: 3}
+      propertyPath: endPosition.x
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058396094193123810, guid: a09d5cfa8089b0442871f8d0368cfcb0,
+        type: 3}
+      propertyPath: testObject
+      value: 
+      objectReference: {fileID: 1128892741545558866, guid: a6cc23dc702eb8943b23cef6dd9b1ee7,
+        type: 3}
+    - target: {fileID: 9058396094193123810, guid: a09d5cfa8089b0442871f8d0368cfcb0,
+        type: 3}
+      propertyPath: startPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9058396094193123811, guid: a09d5cfa8089b0442871f8d0368cfcb0,
         type: 3}
       propertyPath: rageTimer
-      value: 900000
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 9058396094193123823, guid: a09d5cfa8089b0442871f8d0368cfcb0,
         type: 3}
@@ -5265,7 +5298,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1857713896}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -7.4, z: 0}
+  m_LocalPosition: {x: 10.74, y: -7.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 831727218}
