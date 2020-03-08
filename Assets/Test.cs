@@ -80,9 +80,15 @@ public class Test : MonoBehaviour
             //    direction.y * Time.deltaTime * 10));
             gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(
                 gameObject.GetComponent<Rigidbody2D>().velocity.x + spiralTimer, 
-                gameObject.GetComponent<Rigidbody2D>().velocity.y);
+                gameObject.GetComponent<Rigidbody2D>().velocity.y + spiralTimer);
             Debug.Log(gameObject.GetComponent<Rigidbody2D>().velocity);
         }
+    }
+
+    public void Value(float i)
+    {
+        spiralTimer = i;
+        Debug.Log(i);
     }
 
     private void OnDrawGizmosSelected()

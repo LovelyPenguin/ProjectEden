@@ -24,15 +24,15 @@ public class VL_P1_Chopping : MonoBehaviour
 
     public void RotatationToPlayer()
     {
-        Vector3 dir = bossMng.player.transform.position - transform.position;
+        //Vector3 dir = bossMng.player.transform.position - transform.position;
 
 
-        // 타겟 방향으로 회전함
-        float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
-        transform.eulerAngles = new Vector3(0, 0, transform.eulerAngles.z + 90);
+        //// 타겟 방향으로 회전함
+        //float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+        //transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+        //transform.eulerAngles = new Vector3(0, 0, transform.eulerAngles.z + 90);
 
-        playerPosition = bossMng.player.transform.position;
+        //playerPosition = bossMng.player.transform.position;
     }
 
     private void FixedUpdate()
@@ -45,18 +45,17 @@ public class VL_P1_Chopping : MonoBehaviour
         //}
     }
 
-    public void Kick()
+    public void Kick(int option = 0)
     {
         kick = true;
         //Debug.Log("Stop: " + stop + " kick: " + kick);
         if (!stop && kick)
         {
-            //transform.position = Vector2.MoveTowards(transform.position, playerPosition * 2, Time.deltaTime * bossMng.anim.GetFloat("Rage_Kick_Speed"));
-            Vector2 direction;
-            direction.x = transform.position.x + playerPosition.x;
-            direction.y = transform.position.y + playerPosition.y;
-
-            transform.Translate(direction.normalized * Time.deltaTime * bossMng.anim.GetFloat("Rage_Kick_Speed"));
+            //transform.Translate(direction.normalized * Time.deltaTime * bossMng.anim.GetFloat("Rage_Kick_Speed"));
+            if (option == 0)
+            {
+                transform.Translate(Vector2.down * Time.deltaTime * bossMng.anim.GetFloat("Rage_Kick_Speed"));
+            }
         }
     }
 

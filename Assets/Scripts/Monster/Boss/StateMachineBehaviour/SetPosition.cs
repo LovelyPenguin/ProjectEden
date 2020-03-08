@@ -6,6 +6,7 @@ public class SetPosition : StateMachineBehaviour
 {
     public float xpos;
     public float ypos;
+    public bool option = false;
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     //override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -22,7 +23,14 @@ public class SetPosition : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        animator.gameObject.transform.position = new Vector2(xpos, ypos);
+        if (option == false)
+        {
+            animator.gameObject.transform.position = new Vector2(xpos, ypos);
+        }
+        else
+        {
+            animator.gameObject.transform.position = new Vector2(animator.GetComponent<BossStateManager>().player.transform.position.x, ypos);
+        }
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()

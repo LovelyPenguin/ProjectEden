@@ -28,6 +28,7 @@ public class VL_P1_BloodExp : MonoBehaviour
             if (bossMng.anim.GetBool("isPhase2"))
             {
                 bullets.GetComponent<Test>().enabled = true;
+                bullets.GetComponent<Test>().Value(i);
             }
             Rigidbody2D bulletsRigidBody = bullets.GetComponent<Rigidbody2D>();
             bulletsRigidBody.AddForce(new Vector2(
