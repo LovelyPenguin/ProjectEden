@@ -8,6 +8,7 @@ public class VL_P1_Chopping : MonoBehaviour
     private Vector2 playerPosition;
     private bool stop = false;
     private bool kick = false;
+    private bool animationIn = false;
 
     // Start is called before the first frame update
     void Start()
@@ -47,17 +48,33 @@ public class VL_P1_Chopping : MonoBehaviour
     public void Kick()
     {
         kick = true;
+        //Debug.Log("Stop: " + stop + " kick: " + kick);
         if (!stop && kick)
         {
-            transform.position = Vector2.MoveTowards(transform.position, playerPosition * 2, Time.deltaTime * bossMng.anim.GetFloat("Rage_Kick_Speed"));
+            //transform.position = Vector2.MoveTowards(transform.position, playerPosition * 2, Time.deltaTime * bossMng.anim.GetFloat("Rage_Kick_Speed"));
+            Vector2 direction;
+            direction.x = transform.position.x + playerPosition.x;
+            direction.y = transform.position.y + playerPosition.y;
+
+            transform.Translate(direction.normalized * Time.deltaTime * bossMng.anim.GetFloat("Rage_Kick_Speed"));
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Tile"))
-        {
+        if (collision.CompareTag("Tile") && animationIn)
+        { 
+            Debug.Log("Trigger Enter " + collision.transform.position);
+            AnimationOut();
             stop = true;
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Tile") && animationIn)
+        {
+            Debug.Log("Trigger Stay " + collision.transform.position);
         }
     }
 
@@ -65,6 +82,15 @@ public class VL_P1_Chopping : MonoBehaviour
     {
         stop = false;
         kick = false;
+    }
+
+    public void AnimationIn()
+    {
+        animationIn = true;
+    }
+    public void AnimationOut()
+    {
+        animationIn = false;
     }
 
     private void OnDrawGizmosSelected()

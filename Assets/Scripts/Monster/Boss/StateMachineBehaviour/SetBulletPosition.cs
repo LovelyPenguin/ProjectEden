@@ -45,6 +45,11 @@ public class SetBulletPosition : StateMachineBehaviour
         {
             animator.GetComponent<VL_P1_BloodPud>().SetBulletPostion();
         }
+
+        else if (animator.GetInteger("PatternKey") >= (int)BossStatesPhase1.VL_P1_BloodPud && animator.GetBool("isPhase2") == true)
+        {
+            animator.GetComponent<VL_P1_BloodPud>().SetBulletPostion();
+        }
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()
