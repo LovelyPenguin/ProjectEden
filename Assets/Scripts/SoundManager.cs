@@ -8,12 +8,14 @@ public class SoundManager : MonoBehaviour
     public static SoundManager instance;
     private int a = 1;
     AudioSource myAudio;
+    AudioSource bgmAudio;
 
     public AudioClip PCThrowKnife;
     public AudioClip PCThrowKnife2;
     public AudioClip MonsterDead;
     public AudioClip PCJUMP;
     public AudioClip PCDash;
+    public AudioClip Background;
 
     private void Awake()
     {
@@ -28,6 +30,7 @@ public class SoundManager : MonoBehaviour
     void Start()
     {
         myAudio = GetComponent<AudioSource>();
+        bgmAudio = GetComponent<AudioSource>();
     }
 
     public void PlayerThrow()
@@ -60,6 +63,11 @@ public class SoundManager : MonoBehaviour
     {
         myAudio.PlayOneShot(MonsterDead);
 
+    }
+
+    public void Bgm()
+    {
+        myAudio.PlayOneShot(Background);
     }
 
 }
