@@ -39,7 +39,7 @@ public class BossStateManager : MonoBehaviour
             anim.SetBool("isPhase2", true);
             if (!anim.GetBool("Phase1_Chopping"))
             {
-                anim.SetInteger("PatternKey", 10);
+                //anim.SetInteger("PatternKey", 10);
             }
         }
     }

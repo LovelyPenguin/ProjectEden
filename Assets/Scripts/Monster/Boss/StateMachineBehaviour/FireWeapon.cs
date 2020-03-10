@@ -23,7 +23,7 @@ public class FireWeapon : StateMachineBehaviour
         VL_P1_BatShot2(animator);
         //VL_P1_BatShot3(animator);
 
-        animator.SetInteger("PreviousPatternKey", 0);
+        //animator.SetInteger("PreviousPatternKey", 0);
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()

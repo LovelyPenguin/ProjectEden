@@ -9,6 +9,8 @@ public class VL_P1_Chopping : MonoBehaviour
     private bool stop = false;
     private bool kick = false;
     private bool animationIn = false;
+    [SerializeField]
+    private float kickYposLimit;
 
     // Start is called before the first frame update
     void Start()
@@ -49,7 +51,7 @@ public class VL_P1_Chopping : MonoBehaviour
     {
         kick = true;
         //Debug.Log("Stop: " + stop + " kick: " + kick);
-        if (!stop && kick)
+        if (!stop && kick && transform.position.y >= kickYposLimit)
         {
             //transform.Translate(direction.normalized * Time.deltaTime * bossMng.anim.GetFloat("Rage_Kick_Speed"));
             if (option == 0)

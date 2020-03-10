@@ -26,8 +26,11 @@ public class VL_P1_BloodPud : MonoBehaviour
 
     public void SetBulletPostion()
     {
-        Instantiate(bullet, new Vector2(xpos, ypos), Quaternion.identity);
-        Instantiate(bullet, new Vector2(-xpos, ypos), Quaternion.identity);
+
+        GameObject bloodPod = Instantiate(bullet, new Vector2(xpos, ypos), Quaternion.identity);
+        bloodPod.GetComponent<BloodBomb>().bloodTimer = 1;
+        bloodPod = Instantiate(bullet, new Vector2(-xpos, ypos), Quaternion.identity);
+        bloodPod.GetComponent<BloodBomb>().bloodTimer = 1;
         StartCoroutine(BloodCoolTimer());
     }
 
