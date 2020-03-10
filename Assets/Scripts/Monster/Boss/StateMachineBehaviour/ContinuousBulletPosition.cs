@@ -11,44 +11,22 @@ public class ContinuousBulletPosition : StateMachineBehaviour
     //[SerializeField]
     //private float ypos = 0;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
-    //override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    //{
-    //    
-    //}
-
-    // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
-    override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        if (animator.GetInteger("PatternKey") == (int)BossStatesPhase1.VL_P1_BatShot1 && isPlantBomb == false)
+        if (animator.GetInteger("PatternKey") == (int)BossStatesPhase1.VL_P1_BatShot1)
         {
-            if (animator.transform.position.x >= xpos && isStartLeft)
-            {
-                animator.GetComponent<VL_P1_BatShot1>().SetBulletPostion(xpos, animator.transform.position.y, isStartLeft);
-                isPlantBomb = true;
-            }
-
-            if (animator.transform.position.x <= xpos && !isStartLeft)
-            {
-                animator.GetComponent<VL_P1_BatShot1>().SetBulletPostion(xpos, animator.transform.position.y, isStartLeft);
-                isPlantBomb = true;
-            }
+            animator.GetComponent<VL_P1_BatShot1>().SetBulletPostion(isStartLeft);
         }
-
-        if (animator.GetInteger("PatternKey") == (int)BossStatesPhase1.VL_P1_BatShot2 && isPlantBomb == false)
+        if (animator.GetInteger("PatternKey") == (int)BossStatesPhase1.VL_P1_BatShot2)
         {
-            if (animator.transform.position.x >= xpos && isStartLeft)
-            {
-                animator.GetComponent<VL_P1_BatShot2>().SetBulletPostion(xpos, animator.transform.position.y, isStartLeft);
-                isPlantBomb = true;
-            }
-
-            if (animator.transform.position.x <= xpos && !isStartLeft)
-            {
-                animator.GetComponent<VL_P1_BatShot2>().SetBulletPostion(xpos, animator.transform.position.y, isStartLeft);
-                isPlantBomb = true;
-            }
+            animator.GetComponent<VL_P1_BatShot2>().SetBulletPostion(isStartLeft);
         }
     }
+
+    // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
+    //override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    //{
+    //}
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)

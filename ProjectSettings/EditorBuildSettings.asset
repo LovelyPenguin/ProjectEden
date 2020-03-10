@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/GameMain.unity
     guid: 6cb1ea354c9a8a445832885c1ff6635c
+  - enabled: 1
+    path: Assets/Scenes/BossProtoTypeScene.unity
+    guid: 13fab1fce53febf42855cb8675d588d9
   m_configObjects: {}

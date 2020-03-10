@@ -15,9 +15,17 @@ public abstract class VL_BatShot : MonoBehaviour
     protected int bulletArray = 0;
 
     public int bulletAmount;
+    public float coolTimer = 0;
 
     private float[] timerArray;
     private bool[] timerUseCheck;
+
+    public bool[] plantBomb;
+    public bool plantStart = false;
+
+    private Vector2[] positions;
+
+    private bool isLeftStart;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,12 +36,19 @@ public abstract class VL_BatShot : MonoBehaviour
 
         timerUseCheck = new bool[bulletAmount];
         timerArray = new float[bulletAmount];
+
+        plantBomb = new bool[bulletAmount];
+
+        positions = new Vector2[bulletAmount];
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        if (plantStart)
+        {
+            PlantBomb();
+        }
     }
 
     public void SetBulletPostion()
@@ -46,18 +61,52 @@ public abstract class VL_BatShot : MonoBehaviour
         bulletArray++;
     }
 
-    public void SetBulletPostion(float xpos, float ypos, bool isLeftStart)
+    public void SetBulletPostion(bool isLeftStart)
+    {
+        this.isLeftStart = isLeftStart;
+        //if (bulletArray >= bulletAmount)
+        //{
+        //    bulletArray = 0;
+        //}
+        //bullets[bulletArray] = Instantiate(this.bullet, CaculatorBombDistance(bulletArray, isLeftStart), Quaternion.identity);
+        for (int i = 0; i < bulletAmount; i++)
+        {
+            positions[i] = CaculatorBombDistance(i);
+            plantBomb[i] = false;
+            //Debug.Log(positions[i]);
+        }
+
+        plantStart = true;
+        //bulletArray++;
+    }
+
+    private void PlantBomb()
     {
         if (bulletArray >= bulletAmount)
         {
             bulletArray = 0;
         }
-        bullets[bulletArray] = Instantiate(this.bullet, CaculatorBombDistance(bulletArray, isLeftStart), Quaternion.identity);
+
+        if (transform.position.x >= positions[bulletArray].x && !plantBomb[bulletArray] && isLeftStart)
+        {
+
+            plantBomb[bulletArray] = true;
+            bullets[bulletArray] = Instantiate(this.bullet, positions[bulletArray], Quaternion.identity);
+        }
+
+        if (transform.position.x <= positions[bulletArray].x && !plantBomb[bulletArray] && !isLeftStart)
+        {
+
+            plantBomb[bulletArray] = true;
+            bullets[bulletArray] = Instantiate(this.bullet, positions[bulletArray], Quaternion.identity);
+        }
+
         bulletArray++;
     }
 
     public void BulletFire()
     {
+        bulletArray = 0;
         if (bossMng.anim.GetBool("isPhase2"))
         {
             for (int i = 0; i < bulletAmount; i++)
@@ -66,7 +115,7 @@ public abstract class VL_BatShot : MonoBehaviour
                 timerUseCheck[i] = false;
             }
         }
-
+        
         for (int i = 0; i < bulletAmount; i++)
         {
             if (i == 0)
@@ -78,7 +127,7 @@ public abstract class VL_BatShot : MonoBehaviour
                 timeIntervalSave[i] = timeIntervalSave[i - 1] + bossMng.anim.GetFloat("Bullet_Shoot_Interval");
             }
         }
-
+        coolTimer = 0;
         for (int i = 0; i < bulletAmount; i++)
         {
             if (bulletArray >= bulletAmount)
@@ -100,14 +149,14 @@ public abstract class VL_BatShot : MonoBehaviour
                 bulletArray++;
             }
 
-
+            coolTimer += bossMng.anim.GetFloat("Bullet_Shoot_Interval");
         }
+        StartCoroutine(BatAttackCoolTimer(coolTimer));
     }
 
     private void isPhase2(int currentCount)
     {
         int randomNumber = Random.Range(0, bulletAmount);
-        //Debug.Log(randomNumber);
 
         if (timerUseCheck[randomNumber] == false)
         {
@@ -145,6 +194,13 @@ public abstract class VL_BatShot : MonoBehaviour
         return null;
     }
 
+    private IEnumerator BatAttackCoolTimer(float timer)
+    {
+        Debug.Log(timer);
+        yield return new WaitForSeconds(timer);
+        bossMng.anim.SetBool("isUseBatAttack", false);
+    }
+
     public Vector2 startPosition;
     public Vector2 endPosition;
     private float interval = 0;
@@ -159,7 +215,7 @@ public abstract class VL_BatShot : MonoBehaviour
         Gizmos.DrawWireSphere(endPosition, 1f);
     }
 
-    public Vector2 CaculatorBombDistance(int index, bool isLeftStart)
+    public Vector2 CaculatorBombDistance(int index)
     {
         float distance = Vector2.Distance(startPosition, endPosition) / (bulletAmount - 1);
 

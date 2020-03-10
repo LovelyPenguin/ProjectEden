@@ -244,7 +244,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
   player: {fileID: 0}
-  rageTimer: 30
+  rageTimer: 90
 --- !u!114 &9058396094193123810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -259,6 +259,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 8803581358271903196, guid: 7b5f067c43c786d4fba762db86843dc2, type: 3}
   bulletAmount: 6
+  coolTimer: 0
+  plantBomb: 
+  plantStart: 0
   startPosition: {x: -15, y: 0}
   endPosition: {x: 15, y: 0}
 --- !u!114 &1292828951
@@ -275,6 +278,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 8803581358271903196, guid: 7b5f067c43c786d4fba762db86843dc2, type: 3}
   bulletAmount: 6
+  coolTimer: 0
+  plantBomb: 
+  plantStart: 0
   startPosition: {x: -15, y: 0}
   endPosition: {x: 15, y: 0}
 --- !u!114 &1292828952
