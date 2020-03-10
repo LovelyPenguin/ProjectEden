@@ -1017,11 +1017,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9058396094193123811, guid: a09d5cfa8089b0442871f8d0368cfcb0,
-        type: 3}
-      propertyPath: rageTimer
-      value: 30
-      objectReference: {fileID: 0}
     - target: {fileID: 9058396094193123823, guid: a09d5cfa8089b0442871f8d0368cfcb0,
         type: 3}
       propertyPath: m_Name
