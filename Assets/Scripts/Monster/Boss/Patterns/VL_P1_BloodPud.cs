@@ -43,7 +43,7 @@ public class VL_P1_BloodPud : MonoBehaviour
     IEnumerator BloodCoolTimer()
     {
         bossMng.anim.SetBool("isPlayBloodPud", true);
-        yield return new WaitForSeconds(bullet.GetComponent<BloodBomb>().GetBloodBombTimer());
+        yield return new WaitForSeconds(bullet.GetComponent<BloodBomb>().GetBloodBombTimer() + 1);
         bossMng.anim.SetBool("isPlayBloodPud", false);
     }
 }
