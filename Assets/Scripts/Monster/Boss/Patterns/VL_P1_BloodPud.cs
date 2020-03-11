@@ -27,17 +27,17 @@ public class VL_P1_BloodPud : MonoBehaviour
     public void SetBulletPostion()
     {
 
-        GameObject bloodPod = Instantiate(bullet, new Vector2(xpos, ypos), Quaternion.identity);
+        GameObject bloodPod = Instantiate(bullet, new Vector2(transform.position.x + xpos, ypos), Quaternion.identity);
         bloodPod.GetComponent<BloodBomb>().bloodTimer = 1;
-        bloodPod = Instantiate(bullet, new Vector2(-xpos, ypos), Quaternion.identity);
+        bloodPod = Instantiate(bullet, new Vector2(transform.position.x - xpos, ypos), Quaternion.identity);
         bloodPod.GetComponent<BloodBomb>().bloodTimer = 1;
         StartCoroutine(BloodCoolTimer());
     }
 
     private void OnDrawGizmosSelected()
     {
-        Gizmos.DrawWireSphere(new Vector2(xpos, ypos), 1);
-        Gizmos.DrawWireSphere(new Vector2(-xpos, ypos), 1);
+        Gizmos.DrawWireSphere(new Vector2(transform.position.x + xpos, ypos), 1);
+        Gizmos.DrawWireSphere(new Vector2(transform.position.x - xpos, ypos), 1);
     }
 
     IEnumerator BloodCoolTimer()
