@@ -1337,16 +1337,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9058396094193123809, guid: a09d5cfa8089b0442871f8d0368cfcb0,
+    - target: {fileID: 9058396094193123811, guid: a09d5cfa8089b0442871f8d0368cfcb0,
         type: 3}
-      propertyPath: m_Size.x
-      value: 26.666666
-      objectReference: {fileID: 0}
-    - target: {fileID: 9058396094193123809, guid: a09d5cfa8089b0442871f8d0368cfcb0,
-        type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 0
-      objectReference: {fileID: 0}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1857713896}
     - target: {fileID: 9058396094193123823, guid: a09d5cfa8089b0442871f8d0368cfcb0,
         type: 3}
       propertyPath: m_Name
@@ -6008,7 +6003,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1857713897
 Transform:
   m_ObjectHideFlags: 0
@@ -6043,7 +6038,7 @@ DistanceJoint2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1857713896}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_EnableCollision: 1
   m_ConnectedRigidBody: {fileID: 0}

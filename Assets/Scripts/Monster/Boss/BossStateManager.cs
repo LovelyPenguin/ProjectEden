@@ -16,6 +16,8 @@ public class BossStateManager : MonoBehaviour
     private float timer = 1.5f;
 
     private float previosXpos;
+
+    private bool weakHit = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -87,5 +89,10 @@ public class BossStateManager : MonoBehaviour
         {
             return rageTimer;
         }
+    }
+
+    public void WeakPointHit()
+    {
+        Destroy(gameObject);
     }
 }

@@ -47,7 +47,7 @@ public class VL_P1_Chopping : MonoBehaviour
         //}
     }
 
-    public void Kick(int option = 0)
+    public bool Kick(int option = 0)
     {
         kick = true;
         //Debug.Log("Stop: " + stop + " kick: " + kick);
@@ -57,8 +57,15 @@ public class VL_P1_Chopping : MonoBehaviour
             if (option == 0)
             {
                 transform.Translate(Vector2.down * Time.deltaTime * bossMng.anim.GetFloat("Rage_Kick_Speed"));
+                return false;
             }
         }
+        else
+        {
+            return true;
+        }
+
+        return false;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
