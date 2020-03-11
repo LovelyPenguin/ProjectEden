@@ -1337,6 +1337,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9058396094193123809, guid: a09d5cfa8089b0442871f8d0368cfcb0,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 26.666666
+      objectReference: {fileID: 0}
+    - target: {fileID: 9058396094193123809, guid: a09d5cfa8089b0442871f8d0368cfcb0,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9058396094193123823, guid: a09d5cfa8089b0442871f8d0368cfcb0,
         type: 3}
       propertyPath: m_Name
@@ -5998,7 +6008,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1857713897
 Transform:
   m_ObjectHideFlags: 0
