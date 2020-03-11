@@ -19,6 +19,6 @@ public class Reset : MonoBehaviour
 
     public void clock()
     {
-        SceneManager.LoadScene("GameMain");
+        SceneManager.LoadScene("BossProtoTypeScene");
     }
 }
